@@ -1,0 +1,56 @@
+-- Schliesst zwei ERROR-Findings des Supabase Security Advisors
+-- (Lint 0010_security_definer_view).
+--
+-- BEFUND
+-- ------
+-- public.offer_history traegt RLS mit genau einer Policy:
+--
+--   offer_history_admin_read   SELECT   to authenticated   using (is_admin())
+--
+-- Die Historie ist damit bewusst admin-only. Die beiden Views darauf,
+-- offer_history_recent und offer_history_weekly (angelegt in
+-- 20260528000002_offer_history_weekly_views), wurden ohne `security_invoker`
+-- erstellt. Ohne diese Option laufen Views mit den Rechten ihres Owners
+-- (postgres) statt denen des Aufrufers und umgehen dadurch die RLS der
+-- Basistabelle. Da `authenticated` SELECT auf beide Views hat, konnte JEDER
+-- eingeloggte Nutzer die vollstaendige Angebotshistorie lesen.
+--
+-- Gemessen zum Zeitpunkt des Fixes: public.offer_history enthielt 60.191
+-- Zeilen, die ein Nicht-Admin ueber die Views vollstaendig abrufen konnte.
+--
+-- WARUM ES DIESE LUECKE GAB
+-- -------------------------
+-- 20260520000001_security_advisor_fixes hat genau dieses Problem schon einmal
+-- behoben — aber nur fuer die damals vorhandenen Views. Die beiden
+-- offer_history-Views entstanden acht Tage spaeter und fielen durch das
+-- Raster. Alle uebrigen sieben Views in `public` tragen bereits
+-- security_invoker=true; diese Migration stellt den Gleichstand her.
+--
+-- AUSWIRKUNG AUF BESTEHENDE FUNKTIONALITAET: keine.
+-- ------------------------------------------------
+-- Die Views werden ausschliesslich vom Backend gelesen
+-- (backend/src/offerHistory.ts, backend/src/server.ts), und das verbindet mit
+-- SUPABASE_SERVICE_ROLE_KEY. service_role umgeht RLS ohnehin, sieht also
+-- unveraendert alles. Die Mobile-App greift auf keine der beiden Views zu
+-- (geprueft ueber den gesamten Quellbaum).
+--
+-- Schreibweise `= true` bewusst identisch zu den sieben bestehenden Views.
+
+alter view public.offer_history_recent set (security_invoker = true);
+alter view public.offer_history_weekly set (security_invoker = true);
+
+-- VERIFIKATION (am 2026-08-04 gegen das Remote-Projekt ausgefuehrt)
+-- -----------------------------------------------------------------
+-- Als Nicht-Admin auftreten und beide Views lesen:
+--
+--   set local role authenticated;
+--   select set_config('request.jwt.claims',
+--     '{"sub":"00000000-0000-4000-8000-000000000001","role":"authenticated"}',
+--     true);
+--   select count(*) from public.offer_history_recent;   -- ERWARTET: 0
+--   select count(*) from public.offer_history_weekly;   -- ERWARTET: 0
+--   reset role;
+--
+-- Ergebnis: is_admin()=false, beide Views lieferten 0 Zeilen, waehrend die
+-- Basistabelle als postgres 60.191 Zeilen zeigte. RLS greift jetzt durch.
+-- Der Security Advisor meldet danach keine ERROR-Findings mehr.

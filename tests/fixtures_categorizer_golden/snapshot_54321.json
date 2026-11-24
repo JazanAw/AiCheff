@@ -1,0 +1,23 @@
+{
+  "snapshotId": "54321",
+  "offers": [
+    {
+      "storeChain": "PENNY",
+      "name": "Rumkugeln",
+      "category": "Alkohol",
+      "validityStart": "2026-02-09",
+      "validityEnd": "2026-02-15",
+      "price": "1,79",
+      "unit": "200g"
+    },
+    {
+      "storeChain": "PENNY",
+      "name": "Vodka Premium",
+      "category": "Getränke",
+      "validityStart": "2026-02-09",
+      "validityEnd": "2026-02-15",
+      "price": "5,99",
+      "unit": "0.7l"
+    }
+  ]
+}

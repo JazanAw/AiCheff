@@ -1,0 +1,258 @@
+erDiagram
+  AUTH_USERS ||--|| PROFILES : owns
+  AUTH_USERS ||--|| USER_PREFERENCES : owns
+  AUTH_USERS ||--|| SUBSCRIPTIONS : owns
+  AUTH_USERS ||--o{ USER_PUSH_TOKENS : owns
+  AUTH_USERS ||--o{ ADMINS : can_be
+
+  AUTH_USERS ||--o{ WEEKLY_PLAN_ENTRIES : plans
+  AUTH_USERS ||--o{ SHOPPING_LIST_ITEMS : owns
+  AUTH_USERS ||--o{ PANTRY_ITEMS : owns
+  AUTH_USERS ||--o{ USER_BODY_DATA : owns
+  AUTH_USERS ||--o{ USER_PROGRESS_ENTRIES : logs
+  AUTH_USERS ||--o{ USER_MEAL_LOG : logs
+  AUTH_USERS ||--o{ USER_WATER_LOG : logs
+  AUTH_USERS ||--o{ RECIPE_SWIPES : creates
+  AUTH_USERS ||--o{ RECIPE_COMMENTS : writes
+  AUTH_USERS ||--o{ RECIPE_COOKED_LOG : cooks
+  AUTH_USERS ||--o{ DEAL_FAVORITES : favorites
+
+  RECIPES ||--o{ RECIPE_INGREDIENTS : has
+  RECIPES ||--o{ RECIPE_INSTRUCTIONS : has
+  RECIPES ||--o{ RECIPE_SWIPES : receives
+  RECIPES ||--o{ RECIPE_COMMENTS : receives
+  RECIPES ||--o{ WEEKLY_PLAN_ENTRIES : scheduled_as
+  RECIPES ||--o{ SHOPPING_LIST_ITEMS : source_recipe
+  RECIPES ||--o{ RECIPE_COOKED_LOG : cooked
+  RECIPES ||--o{ USER_MEAL_LOG : logged_from
+
+  DEALS ||--o{ DEAL_RECIPE_MATCHES : matched_to
+  RECIPE_INGREDIENTS ||--o{ DEAL_RECIPE_MATCHES : matched_by
+  DEALS ||--o{ SHOPPING_LIST_ITEMS : selected_deal
+  DEALS ||--o{ PANTRY_ITEMS : bought_from
+
+  SHOPPING_LIST_ITEMS ||--o| PANTRY_ITEMS : purchased_into
+  PANTRY_ITEMS ||--o| SHOPPING_LIST_ITEMS : came_from
+  WEEKLY_PLAN_ENTRIES ||--o{ RECIPE_COOKED_LOG : actual_cook
+
+  OFFER_SCAN_RUNS ||--o{ OFFER_HISTORY : observes
+  OFFERS_JSON_SNAPSHOT ||--o{ DEALS : sync_upserts
+  OFFERS_JSON_SNAPSHOT ||--o{ OFFER_HISTORY : history_writes
+  DEAL_SCANS ||..o{ DEALS : legacy_scan_log
+
+  AUTH_USERS {
+    uuid id PK
+    text email
+  }
+  PROFILES {
+    uuid id PK,FK
+    citext email UK
+    text display_name
+    language_code language
+    boolean onboarding_completed
+    timestamptz last_active_at
+  }
+  USER_PREFERENCES {
+    uuid user_id PK,FK
+    int search_radius_km
+    allergen[] allergies
+    boolean halal_filter
+    boolean hide_alcohol
+    text postal_code
+    double latitude
+    double longitude
+  }
+  SUBSCRIPTIONS {
+    uuid user_id PK,FK
+    subscription_tier tier
+    subscription_status status
+    text stripe_customer_id UK
+    text stripe_subscription_id UK
+  }
+  USER_PUSH_TOKENS {
+    uuid id PK
+    uuid user_id FK
+    text expo_token UK
+    text platform
+  }
+  ADMINS {
+    uuid user_id PK,FK
+    citext email UK
+  }
+
+  RECIPES {
+    uuid id PK
+    jsonb name
+    meal_type meal_type
+    deal_category category
+    recipe_status status
+    uuid created_by FK
+    recipe_source_type source_type
+    recipe_verification_status verification_status
+    text[] tags
+    text halal_status
+  }
+  RECIPE_INGREDIENTS {
+    uuid id PK
+    uuid recipe_id FK
+    int position
+    jsonb name
+    numeric amount
+    text unit
+    boolean is_potential_deal
+  }
+  RECIPE_INSTRUCTIONS {
+    uuid id PK
+    uuid recipe_id FK
+    int step_number
+    jsonb text
+  }
+  RECIPE_SWIPES {
+    bigint id PK
+    uuid user_id FK
+    uuid recipe_id FK
+    swipe_action action
+    date week_start_date
+  }
+  RECIPE_COMMENTS {
+    uuid id PK
+    uuid recipe_id FK
+    uuid user_id FK
+    numeric rating
+    text text
+  }
+
+  DEALS {
+    uuid id PK
+    text source
+    text source_external_id UK
+    text name
+    text store_name
+    deal_category category
+    numeric current_price
+    date valid_from
+    date valid_to
+    boolean is_food
+    jsonb nutrition
+    jsonb raw_payload
+  }
+  DEAL_RECIPE_MATCHES {
+    uuid id PK
+    uuid deal_id FK
+    uuid recipe_ingredient_id FK
+    numeric match_score
+    boolean is_verified
+  }
+  DEAL_SCANS {
+    uuid id PK
+    uuid triggered_by FK
+    text trigger
+    deal_scan_status status
+    int count_added
+    int count_updated
+  }
+  DEAL_FAVORITES {
+    uuid user_id PK,FK
+    text deal_id PK
+    text deal_name
+    text store_name
+    numeric current_price
+  }
+
+  WEEKLY_PLAN_ENTRIES {
+    uuid id PK
+    uuid user_id FK
+    uuid recipe_id FK
+    date week_start_date
+    int day_of_week
+    meal_type meal_type
+  }
+  SHOPPING_LIST_ITEMS {
+    uuid id PK
+    uuid user_id FK
+    text name
+    numeric quantity
+    uuid deal_id FK
+    uuid recipe_id FK
+    uuid pantry_item_id FK
+    timestamptz purchased_at
+  }
+  PANTRY_ITEMS {
+    uuid id PK
+    uuid user_id FK
+    text name
+    numeric quantity
+    pantry_source source
+    uuid shopping_item_id FK
+    uuid deal_id FK
+    text barcode
+    text brand
+    jsonb nutrition
+  }
+  RECIPE_COOKED_LOG {
+    uuid id PK
+    uuid user_id FK
+    uuid recipe_id FK
+    uuid weekly_plan_entry_id FK
+    timestamptz cooked_at
+    numeric rating
+  }
+  USER_BODY_DATA {
+    uuid user_id PK,FK
+    numeric weight_kg
+    int daily_calorie_target
+    diet_goal_type diet_goal_type
+    int protein_target_g
+    int water_target_ml
+  }
+  USER_PROGRESS_ENTRIES {
+    uuid id PK
+    uuid user_id FK
+    date entry_date UK
+    numeric weight_kg
+    numeric body_fat_percent
+  }
+  USER_MEAL_LOG {
+    uuid id PK
+    uuid user_id FK
+    date entry_date
+    meal_category meal_category
+    text name
+    uuid recipe_id FK
+    numeric calories
+  }
+  USER_WATER_LOG {
+    uuid user_id PK,FK
+    date entry_date PK
+    int amount_ml
+  }
+
+  OFFER_SCAN_RUNS {
+    uuid id PK
+    text snapshot_id UK
+    text scan_type
+    text status
+    int iso_year
+    int iso_week
+    int offers_count
+  }
+  OFFER_HISTORY {
+    uuid id PK
+    uuid scan_run_id FK
+    text snapshot_id
+    text source
+    text source_external_id
+    text canonical_product_key
+    text store_name
+    text product_name
+    numeric price
+    date valid_from
+    date valid_until
+  }
+  OFFERS_JSON_SNAPSHOT {
+    json offers
+    json nextWeekOffers
+    json filteredOffers
+    json offerScopes
+    text updatedAt
+  }

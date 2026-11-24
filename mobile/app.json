@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Cheffity",
+    "slug": "cheffity",
+    "version": "1.0.0",
+    "scheme": "cheffity",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#111111"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cheffity.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Cheffity uses your location to find nearby supermarket deals."
+      }
+    },
+    "android": {
+      "package": "com.cheffity.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#111111"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-font",
+      "expo-apple-authentication",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Cheffity uses your location to find nearby supermarket deals."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#FF6B35"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Cheffity nutzt die Kamera, um Barcodes von Lebensmitteln zu scannen.",
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "extra": {}
+  }
+}

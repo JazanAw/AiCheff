@@ -1,0 +1,49 @@
+-- Schliesst drei Advisor-WARNs (Lint 0025_public_bucket_allows_listing).
+--
+-- BEFUND
+-- ------
+-- Die drei oeffentlichen Buckets hatten je eine SELECT-Policy auf
+-- storage.objects der Form:
+--
+--   "<bucket> read"   SELECT   to public   using (bucket_id = '<bucket>')
+--
+-- `to public` heisst hier: jeder, auch ohne Login. Das erlaubt storage.list()
+-- und damit das vollstaendige Auflisten aller Dateien im Bucket.
+--
+-- Bei `user-avatars` und `comment-photos` sind das Nutzerinhalte, und die
+-- Pfade tragen die User-UUID als erstes Ordnersegment (siehe die
+-- owner-Policies, die auf storage.foldername(name))[1] = auth.uid() pruefen).
+-- Ein anonymer Aufrufer haette also saemtliche Avatare und Kommentarfotos
+-- samt zugehoeriger User-UUIDs abgreifen koennen, ohne einen einzigen
+-- Dateinamen zu kennen.
+--
+-- WARUM DAS ENTFERNEN GEFAHRLOS IST
+-- ---------------------------------
+-- Alle drei Buckets sind `public = true`. Oeffentliche Buckets liefern ihre
+-- Objekte ueber /storage/v1/object/public/<bucket>/<pfad> aus, und dieser
+-- Pfad wertet RLS nicht aus. Anzeige von Rezeptbildern, Avataren und
+-- Kommentarfotos bleibt unveraendert — nur das Enumerieren entfaellt.
+--
+-- Geprueft im gesamten Quellbaum: die Anwendungen nutzen ausschliesslich
+-- .upload() und .getPublicUrl() (admin/src/lib/recipes.ts). getPublicUrl()
+-- baut clientseitig nur einen String zusammen und fragt storage.objects gar
+-- nicht ab. Kein einziger .list()-Aufruf existiert.
+-- Zum Zeitpunkt der Migration enthielten alle drei Buckets 0 Objekte.
+--
+-- Schreibrechte bleiben unangetastet: die neun owner-/admin-Policies fuer
+-- INSERT, UPDATE und DELETE existieren weiter (nach dem Apply verifiziert).
+-- `cookbook-uploads` ist nicht public und hat eine eigene admin-only
+-- ALL-Policy — von dieser Migration nicht betroffen.
+--
+-- RUECKGAENGIG MACHEN
+-- Falls doch einmal Auflisten gebraucht wird, dann bitte eng gefasst statt
+-- `to public` — z. B. nur der eigene Ordner:
+--
+--   create policy "user-avatars read own" on storage.objects
+--     for select to authenticated
+--     using (bucket_id = 'user-avatars'
+--            and (storage.foldername(name))[1] = (auth.uid())::text);
+
+drop policy if exists "recipe-images read"  on storage.objects;
+drop policy if exists "user-avatars read"   on storage.objects;
+drop policy if exists "comment-photos read" on storage.objects;

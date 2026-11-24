@@ -1,0 +1,176 @@
+{
+  "main_categories": [
+    "Fleisch & Wurst",
+    "Fisch & Meeresfrüchte",
+    "Milchprodukte & Eier",
+    "Obst & Gemüse",
+    "Backwaren",
+    "Getränke alkoholfrei",
+    "Alkohol",
+    "Süßwaren & Snacks",
+    "Grundnahrungsmittel",
+    "Tiefkühl",
+    "Konserven & Fertiggerichte",
+    "Feinkost & Kühlung",
+    "Gewürze/Saucen/Aufstriche",
+    "Non-Food"
+  ],
+  "subcategories": {
+    "Fleisch & Wurst": ["Rind", "Schwein", "Geflügel", "Wurst/Aufschnitt", "Hack", "Grill/BBQ", "Wild/Lamm", "unknown"],
+    "Fisch & Meeresfrüchte": ["Frischfisch", "Räucherfisch", "Meeresfrüchte", "Konservenfisch", "unknown"],
+    "Milchprodukte & Eier": ["Milch", "Joghurt", "Käse", "Quark", "Butter/Margarine", "Eier", "Dessert", "unknown"],
+    "Obst & Gemüse": ["Obst", "Gemüse", "Salat", "Kartoffeln", "Nüsse/Saaten", "unknown"],
+    "Backwaren": ["Brot", "Brötchen", "Kuchen/Gebäck", "Toast", "unknown"],
+    "Getränke alkoholfrei": ["Wasser", "Saft", "Limonade", "Kaffee/Tee", "Energydrink", "unknown"],
+    "Alkohol": ["Bier", "Wein", "Sekt", "Spirituosen", "Mixgetränke", "unknown"],
+    "Süßwaren & Snacks": ["Schokolade/Pralinen", "Kekse/Gebäck", "Chips/Salzgebäck", "Bonbons", "Riegel", "unknown"],
+    "Grundnahrungsmittel": ["Nudeln/Reis", "Mehl/Zucker", "Öle/Fette", "Hülsenfrüchte", "Frühstück", "unknown"],
+    "Tiefkühl": ["Pizza", "Gemüse", "Fertiggerichte", "Eis", "unknown"],
+    "Konserven & Fertiggerichte": ["Konserven", "Suppen", "Fertiggerichte", "Instant", "unknown"],
+    "Feinkost & Kühlung": ["Salate", "Antipasti", "Tofu/Veggie", "Frische Pasta", "unknown"],
+    "Gewürze/Saucen/Aufstriche": ["Gewürze", "Saucen", "Aufstriche", "Senf/Ketchup", "Essig", "unknown"],
+    "Non-Food": ["Körperpflege", "Haushalt", "Papierwaren", "Garten", "Küche/Haushaltsgeräte", "Baby", "Haustier", "unknown"]
+  },
+  "keywords": {
+    "Fleisch & Wurst": {
+      "Rind": ["rind", "rinder", "rindersteak", "entrecote", "rinderkotelett", "weideochse", "weideochsen"],
+      "Schwein": ["schwein", "schweine", "kotelett", "schweinebauch"],
+      "Geflügel": ["haehnchen", "hähnchen", "pute", "truthahn", "gefluegel", "geflügel"],
+      "Wurst/Aufschnitt": ["wurst", "aufschnitt", "salami", "schinken"],
+      "Hack": ["hack", "hackfleisch", "rinderhack", "mett"],
+      "Grill/BBQ": ["grill", "bbq", "bratwurst", "grillmix"],
+      "Wild/Lamm": ["wild", "hirsch", "reh", "lamm"]
+    },
+    "Fisch & Meeresfrüchte": {
+      "Frischfisch": ["fisch", "kabeljau", "seelachs", "lachs"],
+      "Räucherfisch": ["raucherlachs", "raeucherlachs", "raeucherfisch", "räucherfisch"],
+      "Meeresfrüchte": ["garnele", "garnelen", "muschel", "calamari", "shrimp"],
+      "Konservenfisch": ["thunfischdose", "sardinen", "fischkonserve"]
+    },
+    "Milchprodukte & Eier": {
+      "Milch": ["milch", "hafermilch", "sojamilch", "buttermilch", "not mlk", "not m lk", "haferdrink", "mandeldrink", "sojadrink"],
+      "Joghurt": ["joghurt", "skyr"],
+      "Käse": ["kaese", "käse", "gouda", "mozzarella", "emmentaler"],
+      "Quark": ["quark", "frischkaese", "frischkäse"],
+      "Butter/Margarine": ["butter", "margarine"],
+      "Eier": ["ei", "eier"],
+      "Dessert": ["pudding", "dessert", "cremedessert"]
+    },
+    "Obst & Gemüse": {
+      "Obst": ["apfel", "banane", "orange", "mandarine", "beeren", "obst", "zitrone", "zitronen", "passionsfrucht", "passionsfrüchte", "passionsfruechte", "maracuja", "avocado"],
+      "Gemüse": ["gemuese", "gemüse", "tomate", "paprika", "gurke", "zucchini", "zwiebel", "spargel", "artischocke", "artischocken", "radieschen", "knoblauch"],
+      "Salat": ["salat", "eisberg", "romana"],
+      "Kartoffeln": ["kartoffel", "kartoffeln"],
+      "Nüsse/Saaten": ["mandel", "haselnuss", "walnuss", "cashew", "pistazie", "sesam"]
+    },
+    "Backwaren": {
+      "Brot": ["brot", "vollkornbrot"],
+      "Brötchen": ["broetchen", "brötchen", "semmel", "laugenstange", "gourmetlaugenstange", "weckli"],
+      "Kuchen/Gebäck": ["kuchen", "croissant", "gebaeck", "gebäck", "berliner", "superberliner", "ruehrkuchen", "magdalenas", "muffin"],
+      "Toast": ["toast"]
+    },
+    "Getränke alkoholfrei": {
+      "Wasser": ["wasser", "mineralwasser", "still", "sprudel", "naturelle"],
+      "Saft": ["saft", "nektar", "smoothie"],
+      "Limonade": ["cola", "limo", "limonade", "fanta", "sprite"],
+      "Kaffee/Tee": ["kaffee", "tee", "espresso", "cappuccino"],
+      "Energydrink": ["energy", "energydrink"]
+    },
+    "Alkohol": {
+      "Bier": ["bier", "pils", "weizen", "krombacher", "0 0"],
+      "Wein": ["wein", "riesling", "merlot", "weisswein", "weissburgunder", "gewuerztraminer", "grauburgunder", "chardonnay", "sauvignon", "tempranillo", "alkoholfrei weiss"],
+      "Sekt": ["sekt", "prosecco", "champagner", "pommery"],
+      "Spirituosen": ["vodka", "whisky", "gin", "rum", "schnaps", "likoer", "likör", "gordon", "gordons"],
+      "Mixgetränke": ["radler", "alkopop", "aperitif"]
+    },
+    "Süßwaren & Snacks": {
+      "Schokolade/Pralinen": ["schokolade", "praline", "pralinen", "rumkugel", "rumkugeln"],
+      "Kekse/Gebäck": ["keks", "kekse", "waffel", "cookie"],
+      "Chips/Salzgebäck": ["chips", "cracker", "flips", "rustipani", "ofenbrot", "tex-mex-swirl"],
+      "Bonbons": ["bonbon", "lutscher"],
+      "Riegel": ["riegel", "muesliriegel", "müsliriegel"]
+    },
+    "Grundnahrungsmittel": {
+      "Nudeln/Reis": ["nudel", "pasta", "reis", "spaghetti"],
+      "Mehl/Zucker": ["mehl", "zucker", "puderzucker"],
+      "Öle/Fette": ["oel", "öl", "olivenoel", "olivenöl", "rapsoel", "rapsöl", "culinesse"],
+      "Hülsenfrüchte": ["linse", "linsen", "bohnen", "kichererbsen"],
+      "Frühstück": ["muesli", "müsli", "cornflakes", "haferflocken"]
+    },
+    "Tiefkühl": {
+      "Pizza": ["tk pizza", "tiefkuehlpizza", "tiefkühlpizza"],
+      "Gemüse": ["tiefkuehlgemuese", "tiefkühlgemüse"],
+      "Fertiggerichte": ["tiefkuehlgericht", "tiefkühlgericht", "tk gericht"],
+      "Eis": ["speiseeis", "eis"]
+    },
+    "Konserven & Fertiggerichte": {
+      "Konserven": ["konserve", "dose", "dosen"],
+      "Suppen": ["suppe", "bruehe", "brühe"],
+      "Fertiggerichte": ["fertiggericht", "ready meal", "mikrowellen gericht"],
+      "Instant": ["instant", "cup noodle", "ramen"]
+    },
+    "Feinkost & Kühlung": {
+      "Salate": ["kartoffelsalat", "nudelsalat", "feinkostsalat"],
+      "Antipasti": ["antipasti", "olivenmix"],
+      "Tofu/Veggie": ["tofu", "veggie", "vegan"],
+      "Frische Pasta": ["frische pasta", "tortellini", "ravioli"]
+    },
+    "Gewürze/Saucen/Aufstriche": {
+      "Gewürze": ["gewuerz", "gewürz", "pfeffer", "paprika"],
+      "Saucen": ["sauce", "sosse", "soße", "mayonnaise", "aioli", "mojo", "pesto", "dressing", "dip"],
+      "Aufstriche": ["aufstrich", "marmelade", "konfituere", "konfituere", "konfitüre"],
+      "Senf/Ketchup": ["senf", "ketchup"],
+      "Essig": ["essig"]
+    }
+  },
+  "nonfood_subcategories": {
+    "Körperpflege": ["handcreme", "bodymilk", "shampoo", "deo", "zahnpasta", "duschgel", "duschcreme", "seife", "sonnencreme", "lacura", "dove", "garnier", "loreal", "gesichtspflege", "mizellen reinigungswasser", "reinigungswasser", "tuchmaske", "schaumbad", "kosmetik"],
+    "Haushalt": ["reiniger", "klarspueler", "klarspuler", "glanz und klarspueler", "glanz und klarspuler", "maschinenpfleger", "finish klarspueler", "finish klarspuler", "finish maschinenpfleger", "finish powerball", "finish ultimate", "waschmittel", "lenor", "waescheparfuem", "waescheparfum", "wascheparfuem", "wascheparfum", "persil", "waschpulver", "kraft gel", "4 in 1 discs", "discs color", "spuelmittel", "spülmittel", "muellbeutel", "müllbeutel", "alufolie", "frischhaltefolie"],
+    "Papierwaren": ["kuechentuecher", "küchentücher", "kuechenrolle", "küchenrolle", "toilettenpapier"],
+    "Garten": ["duenger", "dünger", "blumenerde", "torffreie erde", "torffrei", "pflanze", "pflanzen", "tomaten ampel", "tomatenampel", "bornholm margerite", "margerite", "katzengras", "blumentopf", "samen", "saemereien", "sämereien", "zwiebelpflanzen"],
+    "Küche/Haushaltsgeräte": ["wasserkocher", "kaffeemaschine", "kuechenwaage", "küchenwaage", "vase", "batterie", "batterien", "silvercrest", "nudelmaschine", "handstaubsauger", "staubsauger", "fruchtsaftkrug", "pizzaschneidebrett", "schneidebrett", "wasserkaraffe", "karaffe", "bierkastenkuehltasche", "bierkastenkuhltasche", "kuehltasche", "kuhltasche", "reifenpflege", "crivit", "poolsitz", "wasserhaengematte", "wasserhangematte", "wasserspielmatte", "wassermattensortiment", "springmatte", "fahrradtasche", "thermoglaeser", "thermoglaser", "trinkglaeser", "trinkglaser"],
+    "Baby": ["windeln"],
+    "Haustier": ["katzenstreu", "hundefutter", "katzenfutter", "haustiernahrung", "vitakraft", "katzen snacks", "katzen-snacks", "katzensnacks", "klumpstreu", "ultra klumpstreu"]
+  },
+  "conflict_rules": [
+    {
+      "if_any": ["rumkugeln", "rumkugel", "praline", "schokolade", "keks", "kekse", "kuchen", "bonbon"],
+      "force": { "main": "Süßwaren & Snacks", "sub": "Schokolade/Pralinen" },
+      "reason": "override:sweets_over_alcohol"
+    },
+    {
+      "if_any": ["kuechentuecher", "küchentücher", "toilettenpapier", "kuechenrolle", "küchenrolle"],
+      "force": { "main": "Non-Food", "sub": "Papierwaren" },
+      "reason": "override:paper_nonfood"
+    }
+  ],
+  "source_category_mappings": {
+    "fleisch": { "main": "Fleisch & Wurst", "sub": "unknown" },
+    "wurst": { "main": "Fleisch & Wurst", "sub": "Wurst/Aufschnitt" },
+    "milch": { "main": "Milchprodukte & Eier", "sub": "unknown" },
+    "drogerie": { "main": "Non-Food", "sub": "Körperpflege" },
+    "haushalt": { "main": "Non-Food", "sub": "Haushalt" },
+    "getraenke": { "main": "Getränke alkoholfrei", "sub": "unknown" },
+    "getränke": { "main": "Getränke alkoholfrei", "sub": "unknown" },
+    "alkohol": { "main": "Alkohol", "sub": "unknown" },
+    "grundnahrungsmittel": { "main": "Grundnahrungsmittel", "sub": "unknown" },
+    "sonstiges": { "main": "Grundnahrungsmittel", "sub": "unknown" }
+  },
+  "keyword_hints": {
+    "allergens": {
+      "nuts": ["mandel", "haselnuss", "walnuss", "cashew", "pistazie"],
+      "peanuts": ["erdnuss", "erdnuesse", "peanut"],
+      "sesame": ["sesam"],
+      "milk": ["milch", "sahne", "kaese", "käse", "butter"],
+      "eggs": ["ei", "eier"]
+    },
+    "diet": {
+      "vegan": ["vegan", "pflanzlich"],
+      "vegetarian": ["vegetarisch", "vegetarian"],
+      "gelatin": ["gelatine", "gelatin"],
+      "pork_gelatin": ["schweinegelatine", "gelatine vom schwein", "porcine gelatin", "pork gelatin"],
+      "beef_gelatin": ["rindergelatine", "bovine gelatin", "beef gelatin"],
+      "fish_gelatin": ["fischgelatine", "fish gelatin"]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "region": "80331",
+  "data": [
+    {
+      "retailerName": "EDEKA",
+      "product": "Weekend Deal Pasta",
+      "department": "Grundnahrungsmittel",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-13",
+      "salesPrice": "1,11",
+      "quantity": "500g"
+    }
+  ]
+}

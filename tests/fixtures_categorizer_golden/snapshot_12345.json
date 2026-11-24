@@ -1,0 +1,32 @@
+{
+  "snapshotId": "12345",
+  "offers": [
+    {
+      "storeChain": "REWE",
+      "name": "Mandarinen",
+      "category": "Obst",
+      "validityStart": "2026-02-09",
+      "validityEnd": "2026-02-15",
+      "price": "1,99",
+      "unit": "1kg"
+    },
+    {
+      "storeChain": "Kaufland",
+      "name": "Gouda",
+      "category": "Milchprodukte",
+      "validityStart": "2026-02-09",
+      "validityEnd": "2026-02-15",
+      "price": "2,49",
+      "unit": "250g"
+    },
+    {
+      "storeChain": "Lidl",
+      "name": "Pizza Salami TK",
+      "category": "Tiefkühl",
+      "validityStart": "2026-02-09",
+      "validityEnd": "2026-02-15",
+      "price": "2,99",
+      "unit": "350g"
+    }
+  ]
+}

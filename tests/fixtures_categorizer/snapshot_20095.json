@@ -1,0 +1,41 @@
+﻿{
+  "postalCode": "20095",
+  "items": [
+    {
+      "chain": "Netto Marken-Discount",
+      "productName": "Nivea Handcreme Sensitive",
+      "category": "Drogerie",
+      "validFrom": "2026-02-09",
+      "validTo": "2026-02-15",
+      "price": "2,99",
+      "size": "75ml"
+    },
+    {
+      "chain": "Kaufland",
+      "title": "Rumkugeln Pralinen Mix",
+      "category": "Alkohol",
+      "validFrom": "2026-02-09",
+      "validTo": "2026-02-15",
+      "price": 1.79,
+      "size": "200g"
+    },
+    {
+      "chain": "PENNY",
+      "name": "Vodka Premium 37,5%",
+      "category": "Getränke",
+      "validFrom": "2026-02-09",
+      "validTo": "2026-02-15",
+      "price": 5.99,
+      "size": "0.7l"
+    },
+    {
+      "chain": "REWE",
+      "name": "Dauerangebot Olivenöl",
+      "category": "Sonstiges",
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31",
+      "price": 6.49,
+      "size": "1l"
+    }
+  ]
+}

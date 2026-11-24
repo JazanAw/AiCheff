@@ -1,0 +1,88 @@
+# Logs
+logs
+*.log
+
+# Backend runtime PID file (written by the server / start-backend.ps1)
+backend/backend.pid
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+backend/data/offers.json
+backend/data/filter-rules.json
+*.local
+
+# Generated / local runtime data
+cache/
+out/
+backend/data/categorizer-runs/
+backend/data/logs/
+backend/data/rewe-pdf-images/
+# Gerenderte ALDI-PDF-Evidence-Crops/Seitenbilder (lokaler Laufzeitstand)
+backend/data/aldi-pdf-images/
+# Gerenderte ALDI-PDF-Vision-Seitenbilder/Tiles (lokaler Laufzeitstand)
+backend/data/aldi-pdf-vision/
+# Persistente ALDI-PDF-Review-Queue (lokaler Laufzeitstand, nie im Repo)
+backend/data/aldi-pdf-review-queue.json
+backend/data/scan-v2-checkpoint.json
+# Lidl-OCR-Debug-Evidence (nur lokal, größen-/anzahlbegrenzt; nie im Snapshot)
+backend/data/debug/
+# Gerenderte Lidl-Hotspot-Crops (lokaler Laufzeitstand, ~32 MB Bilddaten)
+backend/data/lidl-hotspot-crops/
+# Persistente Lidl-Review-Queue (analog zur ALDI-Queue oben, nie im Repo)
+backend/data/lidl-review-queue.json
+# Fehlgeleiteter Schreibpfad: ein relativer Pfad legt backend/backend/data/ an.
+# Laufzeitdaten, kein Quellcode — der echte Pfad ist backend/data/.
+backend/backend/
+
+# Pytest-Temp-Verzeichnisse (teils ohne Leserechte, brechen `git status`)
+.tmp/
+
+# Local assistant/work-in-progress state
+.claude/
+.dev-logs/
+.wip-product-analysis/
+
+# Large local OCR language data (downloadable/runtime-only)
+*.traineddata
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Env files (may contain secrets like SUPABASE_SERVICE_ROLE_KEY)
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backups von .env: `.env` selbst ist oben ignoriert, Kopien wie
+# `.env.bak-bindhost` waren es NICHT — sie tragen aber denselben
+# SUPABASE_SERVICE_ROLE_KEY. Ein `git add -A` haette ihn veroeffentlicht.
+.env.bak*
+.env.*.bak
+*.env.bak*
+
+# Snapshot-Backups (mehrere MB, gehoeren nicht in die Historie).
+backend/data/offers.json.bak-*
+
+# Lokale Assistenz-/Temp-Ordner
+.codex-tmp/
+.agents/
+.pytest_cache/
+*.bak

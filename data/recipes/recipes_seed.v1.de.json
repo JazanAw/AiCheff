@@ -1,0 +1,6643 @@
+{
+  "_comment": "Cheffity recipe seed v1 (de). ~50 everyday German recipes for pantry/deal matching. All texts are written in own words (Cheffity original) or clearly marked as ai_generated drafts (ai_notice_required=true, verification_status=draft, with safety_notes). NO copied web/cookbook text. Validate: npm run recipes:validate -- data/recipes/recipes_seed.v1.de.json. Import is dry-run unless --write + Supabase env.",
+  "recipes": [
+    {
+      "title": "Rührei mit Schnittlauch",
+      "description": "Cremiges Rührei für ein schnelles Frühstück.",
+      "servings": 1,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 5,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 21,
+        "carbs_g": 3,
+        "fat_g": 25
+      },
+      "ingredients": [
+        {
+          "name": "Eier",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "name": "Butter",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Schnittlauch",
+          "amount": 1,
+          "unit": "Bund"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Eier verquirlen und leicht salzen.",
+        "Butter in einer Pfanne bei mittlerer Hitze schmelzen.",
+        "Eier zugeben und langsam rühren, bis sie cremig stocken.",
+        "Mit Schnittlauch bestreuen und servieren."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Haferbrei mit Apfel und Zimt",
+      "description": "Warmer Haferbrei mit geriebenem Apfel und Zimt.",
+      "servings": 1,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 7,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 350,
+        "protein_g": 12,
+        "carbs_g": 55,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Haferflocken",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Milch",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Apfel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zimt",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Haferflocken mit der Milch aufkochen.",
+        "Bei kleiner Hitze unter Rühren einige Minuten quellen lassen.",
+        "Apfel reiben und unterrühren, mit Zimt abschmecken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Joghurt mit Banane und Honig",
+      "description": "Schnelle Joghurtschale mit Banane und Honig.",
+      "servings": 1,
+      "prep_time_minutes": 4,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 280,
+        "protein_g": 12,
+        "carbs_g": 45,
+        "fat_g": 5
+      },
+      "ingredients": [
+        {
+          "name": "Naturjoghurt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Banane",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Honig",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Haferflocken",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Joghurt in eine Schale geben.",
+        "Banane in Scheiben schneiden und darauf verteilen.",
+        "Mit Honig und Haferflocken toppen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Vollkornbrot mit Avocado und Ei",
+      "description": "Herzhaftes Frühstücksbrot mit Avocado und gekochtem Ei.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 9,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "eggs"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 16,
+        "carbs_g": 32,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Vollkornbrot",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "Avocado",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Ei",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        },
+        {
+          "name": "Zitronensaft",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Ei etwa 8 Minuten hart kochen, abschrecken und pellen.",
+        "Avocado zerdrücken, mit Zitronensaft und Salz mischen.",
+        "Avocado auf das Brot streichen und Ei in Scheiben darauflegen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Eier gut durchgaren; Mengen und Allergene vor dem Servieren prüfen."
+    },
+    {
+      "title": "Einfache Pfannkuchen",
+      "description": "Dünne Pfannkuchen aus einem einfachen Grundteig.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "frühstück",
+        "süß",
+        "klassiker",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose",
+        "eggs"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 300,
+        "protein_g": 11,
+        "carbs_g": 40,
+        "fat_g": 10
+      },
+      "ingredients": [
+        {
+          "name": "Mehl",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Milch",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Eier",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "name": "Salz",
+          "amount": 1,
+          "unit": "Prise"
+        },
+        {
+          "name": "Butter",
+          "amount": 1,
+          "unit": "EL",
+          "notes": "zum Ausbacken"
+        }
+      ],
+      "steps": [
+        "Mehl, Milch, Eier und Salz zu einem glatten Teig verrühren.",
+        "Etwas Butter in einer Pfanne erhitzen.",
+        "Dünne Teigschicht eingießen und beidseitig goldgelb backen.",
+        "Vorgang wiederholen, bis der Teig aufgebraucht ist."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Käsebrot mit Tomate",
+      "description": "Schnelles belegtes Brot mit Käse und Tomate.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 330,
+        "protein_g": 16,
+        "carbs_g": 30,
+        "fat_g": 16
+      },
+      "ingredients": [
+        {
+          "name": "Brot",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "Käse",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "Tomate",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Butter",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Brot mit etwas Butter bestreichen.",
+        "Käse auflegen und mit Tomatenscheiben belegen.",
+        "Nach Geschmack leicht salzen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Müsli mit Milch und Beeren",
+      "description": "Knuspriges Müsli mit Milch und frischen Beeren.",
+      "servings": 1,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 340,
+        "protein_g": 13,
+        "carbs_g": 52,
+        "fat_g": 9
+      },
+      "ingredients": [
+        {
+          "name": "Müsli",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Milch",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Beeren",
+          "amount": 100,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Müsli in eine Schale geben.",
+        "Mit Milch übergießen.",
+        "Beeren darauf verteilen und servieren."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Grießbrei mit Zimt",
+      "description": "Cremiger Grießbrei, warm mit Zimt serviert.",
+      "servings": 2,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 10,
+      "meal_type": "sweet_baked",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "süß",
+        "frühstück",
+        "vegetarisch",
+        "klassiker"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 290,
+        "protein_g": 10,
+        "carbs_g": 45,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Milch",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Weichweizengrieß",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Zucker",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Zimt",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Milch mit Zucker aufkochen.",
+        "Grieß unter Rühren einrieseln lassen.",
+        "Bei kleiner Hitze quellen lassen und mit Zimt bestreuen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Garzeiten vor dem Servieren prüfen."
+    },
+    {
+      "title": "Bananen-Hafer-Smoothie",
+      "description": "Sättigender Smoothie mit Banane und Haferflocken.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 1,
+      "meal_type": "drinks",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegan",
+        "drink"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 260,
+        "protein_g": 7,
+        "carbs_g": 50,
+        "fat_g": 4
+      },
+      "ingredients": [
+        {
+          "name": "Banane",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Haferflocken",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Wasser",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Banane schälen und grob zerteilen.",
+        "Mit Haferflocken und Wasser in den Mixer geben.",
+        "Glatt pürieren und sofort trinken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Bircher-Müsli über Nacht",
+      "description": "Eingeweichtes Hafer-Müsli mit Apfel und Nüssen.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "meal prep",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose",
+        "nuts"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 360,
+        "protein_g": 12,
+        "carbs_g": 50,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Haferflocken",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Milch",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Apfel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Walnüsse",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Honig",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Haferflocken mit Milch verrühren und über Nacht kühl quellen lassen.",
+        "Am Morgen den geriebenen Apfel unterrühren.",
+        "Mit gehackten Walnüssen und Honig toppen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Allergene (Nüsse) und Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Spaghetti mit Tomatensauce",
+      "description": "Klassische Spaghetti mit einfacher Tomatensauce.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 20,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "pasta",
+        "schnell",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 480,
+        "protein_g": 15,
+        "carbs_g": 90,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "geschälte Tomaten",
+          "amount": 400,
+          "unit": "g",
+          "notes": "1 Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 2,
+          "unit": "Zehen"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Spaghetti in Salzwasser bissfest kochen.",
+        "Zwiebel und Knoblauch im Öl glasig dünsten.",
+        "Tomaten zugeben, zerdrücken und 10 Minuten köcheln, mit Salz abschmecken.",
+        "Pasta abgießen und mit der Sauce mischen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Spaghetti Aglio e Olio",
+      "description": "Pasta mit Knoblauch, Olivenöl und Petersilie.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 15,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "pasta",
+        "schnell",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 460,
+        "protein_g": 13,
+        "carbs_g": 80,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 3,
+          "unit": "Zehen"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 4,
+          "unit": "EL"
+        },
+        {
+          "name": "Petersilie",
+          "amount": 1,
+          "unit": "Bund"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Spaghetti in Salzwasser bissfest kochen.",
+        "Knoblauch in Scheiben im Olivenöl sanft goldgelb braten.",
+        "Pasta zugeben, schwenken und mit Petersilie und Salz abschmecken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Gemüsereis mit Ei",
+      "description": "Gebratener Reis mit buntem Gemüse und Ei.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "asiatisch",
+      "tags": [
+        "reis",
+        "schnell",
+        "vegetarisch",
+        "resteküche"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "soy",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 470,
+        "protein_g": 15,
+        "carbs_g": 70,
+        "fat_g": 13
+      },
+      "ingredients": [
+        {
+          "name": "Reis",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Eier",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Erbsen",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Karotte",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Reis kochen und abkühlen lassen.",
+        "Gemüse im Öl anbraten, Eier zugeben und stocken lassen.",
+        "Reis untermischen und mit Sojasauce abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Eier gut durchgaren; Mengen und Allergene vor dem Servieren prüfen."
+    },
+    {
+      "title": "Kartoffel-Gemüse-Pfanne",
+      "description": "Bunte Pfanne aus Kartoffeln und Gemüse.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "kartoffeln",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 9,
+        "carbs_g": 65,
+        "fat_g": 13
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zucchini",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln würfeln und in Öl anbraten.",
+        "Übriges Gemüse zugeben und mitbraten, bis alles gar ist.",
+        "Mit Salz abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Garzeiten vor dem Servieren prüfen."
+    },
+    {
+      "title": "Hähnchen-Reispfanne",
+      "description": "Schnelle Pfanne mit Hähnchen, Reis und Gemüse.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "asiatisch",
+      "tags": [
+        "pfanne",
+        "schnell",
+        "high-protein"
+      ],
+      "diet_flags": [],
+      "allergens": [
+        "soy",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Hähnchen aus Halal-Schlachtung verwenden.",
+      "nutrition_per_serving": {
+        "calories": 540,
+        "protein_g": 38,
+        "carbs_g": 62,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Hähnchenbrust",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Erbsen",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Reis kochen und beiseitestellen.",
+        "Hähnchen würfeln und im Öl kräftig anbraten.",
+        "Paprika und Erbsen mitbraten, Reis und Sojasauce unterrühren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Hähnchen vollständig durchgaren (Kerntemperatur mind. 74 °C)."
+    },
+    {
+      "title": "Linsen-Dal mit Reis",
+      "description": "Würziges rotes Linsen-Dal mit Reis.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "indisch",
+      "tags": [
+        "vegan",
+        "günstig",
+        "eintopf"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 460,
+        "protein_g": 18,
+        "carbs_g": 78,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "rote Linsen",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Currypulver",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 600,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Zwiebel anbraten, Currypulver kurz mitrösten.",
+        "Linsen und Brühe zugeben und weich köcheln.",
+        "Dal mit dem Reis servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Hülsenfrüchte gründlich garen; Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Kartoffelsuppe",
+      "description": "Sämige Kartoffelsuppe mit Wurzelgemüse.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "suppe",
+        "günstig",
+        "vegan"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 250,
+        "protein_g": 6,
+        "carbs_g": 40,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Karotte",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Gemüse würfeln und kurz anbraten.",
+        "Mit Brühe auffüllen und weich kochen.",
+        "Teilweise pürieren und mit Salz abschmecken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Klare Gemüsesuppe",
+      "description": "Leichte Suppe mit buntem Gemüse.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "suppe",
+        "leicht",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 140,
+        "protein_g": 5,
+        "carbs_g": 22,
+        "fat_g": 3
+      },
+      "ingredients": [
+        {
+          "name": "Karotte",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Sellerie",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Kartoffeln",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Lauch",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Gemüse in kleine Stücke schneiden.",
+        "In der Brühe weich kochen.",
+        "Mit Salz und Kräutern abschmecken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Nudelauflauf mit Gemüse und Käse",
+      "description": "Überbackener Nudelauflauf mit Gemüse.",
+      "servings": 4,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "deutsch",
+      "tags": [
+        "auflauf",
+        "vegetarisch",
+        "ofen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 22,
+        "carbs_g": 60,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Brokkoli",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "geriebener Käse",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Sahne",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Nudeln und Brokkoli vorgaren.",
+        "In eine Auflaufform geben, mit Sahne übergießen und salzen.",
+        "Mit Käse bestreuen und im Ofen goldbraun überbacken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Backzeit und Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Reispfanne mit Paprika und Mais",
+      "description": "Schnelle vegetarische Reispfanne.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "reis",
+        "schnell",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 440,
+        "protein_g": 11,
+        "carbs_g": 82,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Reis",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Mais",
+          "amount": 150,
+          "unit": "g",
+          "notes": "aus der Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Zwiebel und Paprika im Öl anbraten.",
+        "Mais und Reis untermischen und heiß durchschwenken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Garzeiten vor dem Servieren prüfen."
+    },
+    {
+      "title": "Frikadellen mit Kartoffelpüree",
+      "description": "Saftige Frikadellen mit cremigem Püree.",
+      "servings": 4,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "deutsch",
+      "tags": [
+        "klassiker",
+        "high-protein"
+      ],
+      "diet_flags": [],
+      "allergens": [
+        "gluten",
+        "eggs",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Rinderhack aus Halal-Schlachtung verwenden.",
+      "nutrition_per_serving": {
+        "calories": 600,
+        "protein_g": 32,
+        "carbs_g": 45,
+        "fat_g": 32
+      },
+      "ingredients": [
+        {
+          "name": "Rinderhackfleisch",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Ei",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Semmelbrösel",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Kartoffeln",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Milch",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Hack mit Ei, Bröseln und gewürfelter Zwiebel verkneten und Frikadellen formen.",
+        "Frikadellen in Öl von beiden Seiten kräftig durchbraten.",
+        "Kartoffeln kochen, mit Milch zu Püree stampfen und zusammen servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Hackfleisch vollständig durchgaren; Mengen und Allergene prüfen."
+    },
+    {
+      "title": "Gefüllte Paprika mit Reis und Hackfleisch",
+      "description": "Im Ofen gegarte Paprika mit Reis-Hack-Füllung.",
+      "servings": 4,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "international",
+      "tags": [
+        "ofen",
+        "high-protein"
+      ],
+      "diet_flags": [],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Hackfleisch aus Halal-Schlachtung verwenden.",
+      "nutrition_per_serving": {
+        "calories": 480,
+        "protein_g": 28,
+        "carbs_g": 45,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Paprika",
+          "amount": 4,
+          "unit": "Stück"
+        },
+        {
+          "name": "Rinderhackfleisch",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "geschälte Tomaten",
+          "amount": 400,
+          "unit": "g",
+          "notes": "1 Dose"
+        }
+      ],
+      "steps": [
+        "Reis halb gar kochen, Hack mit Zwiebel anbraten und mischen.",
+        "Paprika aushöhlen und mit der Reis-Hack-Masse füllen.",
+        "In die Auflaufform setzen, mit Tomaten begießen und im Ofen garen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Hackfleisch vollständig durchgaren; Backzeit prüfen."
+    },
+    {
+      "title": "Couscous-Salat mit Gemüse",
+      "description": "Frischer Couscous-Salat mit knackigem Gemüse.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "orientalisch",
+      "tags": [
+        "salat",
+        "meal prep",
+        "vegan"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 360,
+        "protein_g": 10,
+        "carbs_g": 60,
+        "fat_g": 9
+      },
+      "ingredients": [
+        {
+          "name": "Couscous",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Gurke",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Tomaten",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Zitronensaft",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Couscous mit kochendem Wasser übergießen und quellen lassen.",
+        "Gemüse klein würfeln.",
+        "Alles mit Öl und Zitronensaft mischen und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Allergene vor dem Servieren prüfen."
+    },
+    {
+      "title": "Ofengemüse mit Kräutern",
+      "description": "Buntes Gemüse aus dem Ofen mit Kräutern.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "mediterran",
+      "tags": [
+        "ofen",
+        "vegan",
+        "beilage"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 280,
+        "protein_g": 6,
+        "carbs_g": 38,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Zucchini",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Kräuter der Provence",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Gemüse in Stücke schneiden.",
+        "Mit Öl und Kräutern mischen und auf ein Blech geben.",
+        "Im Ofen goldbraun rösten."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Pellkartoffeln mit Quark",
+      "description": "Gekochte Kartoffeln mit Kräuterquark.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "klassiker",
+        "vegetarisch",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 330,
+        "protein_g": 18,
+        "carbs_g": 45,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Quark",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Schnittlauch",
+          "amount": 1,
+          "unit": "Bund"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln mit Schale weich kochen.",
+        "Quark mit Schnittlauch und Salz verrühren.",
+        "Kartoffeln pellen und mit dem Kräuterquark servieren."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Käsespätzle",
+      "description": "Spätzle mit geschmolzenem Käse und Röstzwiebeln.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "deutsch",
+      "tags": [
+        "klassiker",
+        "vegetarisch",
+        "soulfood"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose",
+        "eggs"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 620,
+        "protein_g": 24,
+        "carbs_g": 65,
+        "fat_g": 28
+      },
+      "ingredients": [
+        {
+          "name": "Mehl",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Eier",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "name": "geriebener Käse",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Salz",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Mehl, Eier, Salz und etwas Wasser zu einem zähen Teig rühren.",
+        "Teig portionsweise in kochendes Salzwasser schaben, bis die Spätzle aufsteigen.",
+        "Mit Käse schichten und mit gerösteten Zwiebeln servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Allergene vor dem Servieren prüfen."
+    },
+    {
+      "title": "Tomate-Mozzarella",
+      "description": "Klassischer Salat aus Tomaten und Mozzarella.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 1,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "salat",
+        "schnell",
+        "vegetarisch",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 280,
+        "protein_g": 16,
+        "carbs_g": 8,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Tomaten",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "name": "Mozzarella",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Basilikum",
+          "amount": 1,
+          "unit": "Bund"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Tomaten und Mozzarella in Scheiben schneiden.",
+        "Abwechselnd anrichten.",
+        "Mit Basilikum, Olivenöl und etwas Salz beträufeln."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Gemüseomelett",
+      "description": "Fluffiges Omelett mit Paprika und Zwiebel.",
+      "servings": 1,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 8,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "schnell",
+        "vegetarisch",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "eggs",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 340,
+        "protein_g": 22,
+        "carbs_g": 8,
+        "fat_g": 24
+      },
+      "ingredients": [
+        {
+          "name": "Eier",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Butter",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Gemüse fein würfeln und in der Butter andünsten.",
+        "Verquirlte Eier zugeben und stocken lassen.",
+        "Omelett zusammenklappen und servieren."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Spinat mit Kartoffeln und Spiegelei",
+      "description": "Rahmspinat mit Salzkartoffeln und Spiegelei.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "klassiker",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "eggs",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 18,
+        "carbs_g": 45,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Blattspinat",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Kartoffeln",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Eier",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Sahne",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Zehe"
+        }
+      ],
+      "steps": [
+        "Kartoffeln als Salzkartoffeln kochen.",
+        "Spinat mit Knoblauch andünsten und mit Sahne verfeinern.",
+        "Spiegeleier braten und alles zusammen anrichten."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Eier nach Wunsch durchgaren; Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Pilzpfanne mit Reis",
+      "description": "Aromatische Champignonpfanne mit Reis.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "vegan",
+        "schnell"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 400,
+        "protein_g": 12,
+        "carbs_g": 70,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Champignons",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Petersilie",
+          "amount": 1,
+          "unit": "Bund"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Zwiebel und Champignons im Öl kräftig anbraten, bis die Flüssigkeit verdampft ist.",
+        "Mit Salz abschmecken, mit Petersilie bestreuen und mit Reis servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Pilze frisch verwenden und gut durchgaren."
+    },
+    {
+      "title": "Brokkoli-Nudeln mit Käse",
+      "description": "Nudeln mit Brokkoli in cremiger Käsesauce.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "pasta",
+        "vegetarisch",
+        "schnell"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 22,
+        "carbs_g": 70,
+        "fat_g": 18
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Brokkoli",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "geriebener Käse",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Sahne",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen, Brokkoli die letzten Minuten mitkochen.",
+        "Sahne erhitzen und den Käse darin schmelzen.",
+        "Nudeln und Brokkoli in der Sauce schwenken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Allergene vor dem Servieren prüfen."
+    },
+    {
+      "title": "Karotten-Ingwer-Suppe",
+      "description": "Cremige Karottensuppe mit frischem Ingwer.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "suppe",
+        "vegan",
+        "leicht"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 180,
+        "protein_g": 4,
+        "carbs_g": 24,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Karotten",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Ingwer",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 800,
+          "unit": "ml"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel, Karotten und Ingwer im Öl andünsten.",
+        "Mit Brühe auffüllen und weich kochen.",
+        "Fein pürieren und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Tomatensuppe",
+      "description": "Schnelle Tomatensuppe aus Dosentomaten.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "suppe",
+        "günstig",
+        "vegan",
+        "schnell"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 170,
+        "protein_g": 5,
+        "carbs_g": 22,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "geschälte Tomaten",
+          "amount": 800,
+          "unit": "g",
+          "notes": "2 Dosen"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Zehe"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel und Knoblauch im Öl andünsten.",
+        "Tomaten und Brühe zugeben und 15 Minuten köcheln.",
+        "Pürieren und mit Salz abschmecken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Gemüsecurry mit Kokosmilch",
+      "description": "Mildes Curry mit Gemüse und Kokosmilch.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "indisch",
+      "tags": [
+        "curry",
+        "vegan"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 540,
+        "protein_g": 12,
+        "carbs_g": 65,
+        "fat_g": 26
+      },
+      "ingredients": [
+        {
+          "name": "Kokosmilch",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Reis",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zucchini",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Currypaste",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Gemüse kurz anbraten, Currypaste mitrösten.",
+        "Kokosmilch zugeben und 10 Minuten köcheln, mit Reis servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Schärfe der Currypaste variiert — vorsichtig dosieren."
+    },
+    {
+      "title": "Kartoffelgratin",
+      "description": "Kartoffelscheiben in Sahne überbacken.",
+      "servings": 4,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "französisch",
+      "tags": [
+        "ofen",
+        "vegetarisch",
+        "beilage"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 12,
+        "carbs_g": 40,
+        "fat_g": 24
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Sahne",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "name": "geriebener Käse",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Zehe"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln in dünne Scheiben schneiden und in eine Form schichten.",
+        "Sahne mit Knoblauch und Salz mischen und darübergießen.",
+        "Mit Käse bestreuen und im Ofen goldbraun durchbacken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Bis die Kartoffeln weich sind durchbacken; Backzeit prüfen."
+    },
+    {
+      "title": "Vegane Linsenbolognese mit Nudeln",
+      "description": "Herzhafte Bolognese aus Linsen statt Hackfleisch.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "pasta",
+        "vegan",
+        "günstig",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 22,
+        "carbs_g": 92,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "rote Linsen",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "geschälte Tomaten",
+          "amount": 400,
+          "unit": "g",
+          "notes": "1 Dose"
+        },
+        {
+          "name": "Karotte",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Zwiebel und geriebene Karotte andünsten.",
+        "Linsen und Tomaten zugeben und weich köcheln.",
+        "Nudeln kochen und mit der Sauce mischen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Hülsenfrüchte gründlich garen; Mengen prüfen."
+    },
+    {
+      "title": "Kichererbsen-Curry",
+      "description": "Sättigendes Curry mit Kichererbsen und Tomaten.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "indisch",
+      "tags": [
+        "curry",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 16,
+        "carbs_g": 60,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Kichererbsen",
+          "amount": 480,
+          "unit": "g",
+          "notes": "2 Dosen, abgetropft"
+        },
+        {
+          "name": "geschälte Tomaten",
+          "amount": 400,
+          "unit": "g",
+          "notes": "1 Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Currypulver",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel im Öl andünsten und Currypulver mitrösten.",
+        "Tomaten und Kichererbsen zugeben.",
+        "10 Minuten köcheln und mit Salz abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Schärfe vor dem Servieren prüfen."
+    },
+    {
+      "title": "Vegane Gemüsepfanne mit Tofu",
+      "description": "Knusprig gebratener Tofu mit buntem Gemüse.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "asiatisch",
+      "tags": [
+        "vegan",
+        "high-protein",
+        "pfanne"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "soy",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 22,
+        "carbs_g": 28,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Tofu",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Brokkoli",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Tofu würfeln und in Öl rundum knusprig braten.",
+        "Gemüse zugeben und bissfest mitbraten.",
+        "Mit Sojasauce ablöschen und kurz schwenken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Allergene (Soja, Gluten) und Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Tomaten-Bohnen-Eintopf",
+      "description": "Wärmender Eintopf mit weißen Bohnen.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "mediterran",
+      "tags": [
+        "eintopf",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 15,
+        "carbs_g": 48,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "weiße Bohnen",
+          "amount": 480,
+          "unit": "g",
+          "notes": "2 Dosen, abgetropft"
+        },
+        {
+          "name": "geschälte Tomaten",
+          "amount": 400,
+          "unit": "g",
+          "notes": "1 Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Karotte",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Zwiebel und Karotte andünsten.",
+        "Tomaten, Bohnen und Brühe zugeben.",
+        "15 Minuten köcheln und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Hülsenfrüchte gründlich garen; Mengen prüfen."
+    },
+    {
+      "title": "Grüner Smoothie mit Spinat und Apfel",
+      "description": "Frischer grüner Smoothie mit Spinat und Apfel.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 1,
+      "meal_type": "drinks",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "drink",
+        "vegan",
+        "schnell"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 160,
+        "protein_g": 3,
+        "carbs_g": 34,
+        "fat_g": 1
+      },
+      "ingredients": [
+        {
+          "name": "Blattspinat",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Apfel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Banane",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Wasser",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Spinat, Apfel und Banane grob zerteilen.",
+        "Mit Wasser in den Mixer geben.",
+        "Glatt pürieren und sofort trinken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Nudeln mit Pesto",
+      "description": "Schnelle Nudeln mit Basilikumpesto.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 12,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "pasta",
+        "schnell",
+        "günstig",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose",
+        "nuts"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 560,
+        "protein_g": 16,
+        "carbs_g": 80,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Pesto",
+          "amount": 4,
+          "unit": "EL"
+        },
+        {
+          "name": "Parmesan",
+          "amount": 30,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Nudeln in Salzwasser bissfest kochen.",
+        "Etwas Kochwasser auffangen, Nudeln abgießen.",
+        "Mit Pesto und etwas Kochwasser cremig mischen und mit Parmesan bestreuen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Allergene (Nüsse) im Pesto prüfen."
+    },
+    {
+      "title": "Reis mit Spiegelei und Sojasauce",
+      "description": "Günstiges Studentenessen aus Reis und Ei.",
+      "servings": 1,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 18,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "asiatisch",
+      "tags": [
+        "günstig",
+        "schnell",
+        "vegetarisch",
+        "studentenessen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "soy",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 480,
+        "protein_g": 16,
+        "carbs_g": 75,
+        "fat_g": 13
+      },
+      "ingredients": [
+        {
+          "name": "Reis",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Ei",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Reis kochen.",
+        "Spiegeleier in Öl braten.",
+        "Reis mit Sojasauce mischen und die Eier daraufsetzen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Eier nach Wunsch durchgaren; Allergene prüfen."
+    },
+    {
+      "title": "Bratkartoffeln mit Zwiebeln",
+      "description": "Knusprige Bratkartoffeln mit Zwiebeln.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "günstig",
+        "vegan",
+        "beilage",
+        "klassiker"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 360,
+        "protein_g": 7,
+        "carbs_g": 55,
+        "fat_g": 13
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Gekochte Kartoffeln in Scheiben schneiden.",
+        "In Öl goldbraun und knusprig braten.",
+        "Zwiebelwürfel zugeben, mitbraten und salzen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Tomatenreis aus einem Topf",
+      "description": "One-Pot-Reis in würziger Tomatenbrühe.",
+      "servings": 3,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 22,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "one-pot",
+        "günstig",
+        "vegan",
+        "studentenessen"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 8,
+        "carbs_g": 78,
+        "fat_g": 5
+      },
+      "ingredients": [
+        {
+          "name": "Reis",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "passierte Tomaten",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel im Öl andünsten und Reis kurz mitrösten.",
+        "Tomaten und Brühe zugeben.",
+        "Zugedeckt köcheln, bis der Reis die Flüssigkeit aufgenommen hat."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Garzeit vor dem Servieren prüfen."
+    },
+    {
+      "title": "Käse-Nudeln",
+      "description": "Einfache Nudeln mit geriebenem Käse.",
+      "servings": 1,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 12,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "günstig",
+        "schnell",
+        "vegetarisch",
+        "studentenessen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 22,
+        "carbs_g": 78,
+        "fat_g": 14
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "geriebener Käse",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Butter",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Nudeln in Salzwasser kochen und abgießen.",
+        "Heiß mit Butter und Käse vermengen.",
+        "Mit Salz abschmecken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Knoblauchbrot",
+      "description": "Knuspriges Brot mit Knoblauchbutter.",
+      "servings": 4,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 12,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "snack",
+        "beilage",
+        "vegetarisch",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 260,
+        "protein_g": 6,
+        "carbs_g": 30,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Baguette",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Butter",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 2,
+          "unit": "Zehen"
+        },
+        {
+          "name": "Petersilie",
+          "amount": 1,
+          "unit": "Bund"
+        }
+      ],
+      "steps": [
+        "Weiche Butter mit gepresstem Knoblauch und Petersilie verrühren.",
+        "Baguette einschneiden und die Butter in die Schlitze streichen.",
+        "Im Ofen knusprig backen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Ofenkartoffel-Wedges",
+      "description": "Würzige Kartoffelspalten aus dem Ofen.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 30,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "snack",
+        "beilage",
+        "vegan",
+        "ofen"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 300,
+        "protein_g": 6,
+        "carbs_g": 48,
+        "fat_g": 10
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln in Spalten schneiden.",
+        "Mit Öl, Paprikapulver und Salz mischen.",
+        "Auf einem Blech im Ofen knusprig backen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Gurkensalat",
+      "description": "Frischer Gurkensalat mit Essig-Dressing.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 1,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "salat",
+        "beilage",
+        "vegan",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 90,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Gurke",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Essig",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Gurke in feine Scheiben hobeln.",
+        "Mit Essig, Öl und Salz mischen.",
+        "Kurz durchziehen lassen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Tzatziki",
+      "description": "Griechischer Joghurt-Dip mit Gurke und Knoblauch.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 1,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "griechisch",
+      "tags": [
+        "snack",
+        "dip",
+        "vegetarisch",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 110,
+        "protein_g": 6,
+        "carbs_g": 6,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "griechischer Joghurt",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Gurke",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Zehe"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Gurke fein reiben und gut ausdrücken.",
+        "Mit Joghurt, gepresstem Knoblauch und Öl verrühren.",
+        "Mit Salz abschmecken und kühl stellen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Kühl lagern; Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Hummus",
+      "description": "Cremiger Kichererbsen-Dip mit Tahini.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 1,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "orientalisch",
+      "tags": [
+        "snack",
+        "dip",
+        "vegan",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "sesame"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 200,
+        "protein_g": 8,
+        "carbs_g": 18,
+        "fat_g": 11
+      },
+      "ingredients": [
+        {
+          "name": "Kichererbsen",
+          "amount": 240,
+          "unit": "g",
+          "notes": "1 Dose, abgetropft"
+        },
+        {
+          "name": "Tahini",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Zitronensaft",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Zehe"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Kichererbsen mit Tahini, Zitronensaft und Knoblauch pürieren.",
+        "Mit etwas Wasser cremig rühren.",
+        "Mit Olivenöl und Salz abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Allergene (Sesam) prüfen; kühl lagern."
+    },
+    {
+      "title": "Overnight Oats mit Beeren",
+      "description": "Über Nacht eingeweichte Haferflocken mit Beeren.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "meal prep",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 330,
+        "protein_g": 13,
+        "carbs_g": 50,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Haferflocken",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Milch",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Naturjoghurt",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Beeren",
+          "amount": 80,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Haferflocken mit Milch und Joghurt verrühren.",
+        "Über Nacht im Kühlschrank quellen lassen.",
+        "Am Morgen mit Beeren toppen."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Eiersalat-Brot",
+      "description": "Cremiger Eiersalat auf Brot.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "frühstück",
+        "snack",
+        "vegetarisch",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch; Mayonnaise ohne Alkohol verwenden.",
+      "nutrition_per_serving": {
+        "calories": 360,
+        "protein_g": 16,
+        "carbs_g": 28,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Eier",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "name": "Mayonnaise",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Brot",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "Schnittlauch",
+          "amount": 1,
+          "unit": "Bund"
+        }
+      ],
+      "steps": [
+        "Eier hart kochen, abschrecken und würfeln.",
+        "Mit Mayonnaise und Schnittlauch mischen und salzen.",
+        "Auf das Brot streichen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Eier vollständig durchgaren; kühl lagern."
+    },
+    {
+      "title": "Milchreis mit Zimt und Zucker",
+      "description": "Cremiger Milchreis, warm mit Zimtzucker.",
+      "servings": 3,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 35,
+      "meal_type": "sweet_baked",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "süß",
+        "klassiker",
+        "vegetarisch"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 9,
+        "carbs_g": 58,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Milchreis",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Milch",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "Zucker",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Zimt",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Milch mit dem Reis aufkochen.",
+        "Bei kleiner Hitze unter Rühren weich quellen lassen.",
+        "Mit Zucker süßen und mit Zimt bestreut servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Beim Quellen rühren, damit nichts anbrennt; Garzeit prüfen."
+    },
+    {
+      "title": "Bulgur-Gemüse-Pfanne",
+      "description": "Lockerer Bulgur mit angebratenem Gemüse.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "orientalisch",
+      "tags": [
+        "vegan",
+        "günstig",
+        "meal prep"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 11,
+        "carbs_g": 68,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Bulgur",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Zucchini",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Bulgur nach Packungsangabe quellen lassen.",
+        "Gemüse im Öl anbraten.",
+        "Bulgur untermischen und mit Salz abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Garzeiten vor dem Servieren prüfen."
+    },
+    {
+      "title": "Apfel-Zimt-Quark",
+      "description": "Schneller Quark mit Apfel und Zimt.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch",
+        "high-protein",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 240,
+        "protein_g": 20,
+        "carbs_g": 25,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Quark",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Apfel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Honig",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Zimt",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Quark in eine Schale geben.",
+        "Apfel reiben und unterrühren.",
+        "Mit Honig und Zimt verfeinern."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Möhren-Kartoffel-Stampf",
+      "description": "Cremiger Stampf aus Möhren und Kartoffeln.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "beilage",
+        "vegan",
+        "günstig",
+        "klassiker"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 250,
+        "protein_g": 5,
+        "carbs_g": 42,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Möhren",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Möhren weich kochen.",
+        "Abgießen und mit dem Öl grob stampfen.",
+        "Mit Salz abschmecken."
+      ],
+      "source_type": "human_verified",
+      "source_license": "Cheffity original",
+      "ai_notice_required": false,
+      "verification_status": "reviewed",
+      "safety_notes": null
+    },
+    {
+      "title": "Shakshuka",
+      "description": "Eier pochiert in würziger Tomaten-Paprika-Sauce.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "lunch",
+      "difficulty": "medium",
+      "cuisine": "orientalisch",
+      "tags": [
+        "vegetarisch",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "eggs"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 18,
+        "carbs_g": 20,
+        "fat_g": 18
+      },
+      "ingredients": [
+        {
+          "name": "Eier",
+          "amount": 4,
+          "unit": "Stück"
+        },
+        {
+          "name": "geschälte Tomaten",
+          "amount": 400,
+          "unit": "g",
+          "notes": "1 Dose"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel und Paprika im Öl andünsten.",
+        "Tomaten zugeben und einköcheln, mit Salz würzen.",
+        "Mulden in die Sauce drücken, Eier hineingeben und stocken lassen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Eier nach Wunsch durchgaren; Mengen prüfen."
+    },
+    {
+      "title": "Brokkoli-Kartoffel-Suppe",
+      "description": "Sämige Suppe aus Brokkoli und Kartoffeln.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "suppe",
+        "vegetarisch",
+        "leicht"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 230,
+        "protein_g": 9,
+        "carbs_g": 30,
+        "fat_g": 9
+      },
+      "ingredients": [
+        {
+          "name": "Brokkoli",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Kartoffeln",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 900,
+          "unit": "ml"
+        },
+        {
+          "name": "Sahne",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Zwiebel andünsten, Kartoffeln und Brokkoli zugeben.",
+        "Mit Brühe weich kochen.",
+        "Pürieren, mit Sahne verfeinern und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Wraps mit Bohnen und Gemüse",
+      "description": "Gefüllte Wraps mit Bohnen, Mais und Gemüse.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "schnell",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 15,
+        "carbs_g": 68,
+        "fat_g": 10
+      },
+      "ingredients": [
+        {
+          "name": "Tortilla-Wraps",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Kidneybohnen",
+          "amount": 240,
+          "unit": "g",
+          "notes": "1 Dose, abgetropft"
+        },
+        {
+          "name": "Mais",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Tomate",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Gemüse klein schneiden, Bohnen und Mais zugeben und kurz erwärmen.",
+        "Die Mischung auf die Wraps verteilen und würzen.",
+        "Wraps fest einrollen und halbieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Allergene und Mengen vor dem Servieren prüfen."
+    },
+    {
+      "title": "Rote-Linsen-Suppe",
+      "description": "Cremige Suppe aus roten Linsen.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "orientalisch",
+      "tags": [
+        "suppe",
+        "vegan",
+        "günstig",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegan",
+        "vegetarisch"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "nutrition_per_serving": {
+        "calories": 260,
+        "protein_g": 14,
+        "carbs_g": 40,
+        "fat_g": 5
+      },
+      "ingredients": [
+        {
+          "name": "rote Linsen",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Karotte",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Kreuzkümmel",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Zwiebel und Karotte andünsten, Kreuzkümmel mitrösten.",
+        "Linsen und Brühe zugeben und weich kochen.",
+        "Pürieren und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Hülsenfrüchte gründlich garen; Mengen prüfen."
+    },
+    {
+      "title": "Spinat-Feta-Nudeln",
+      "description": "Nudeln mit Blattspinat und Feta.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 15,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "mediterran",
+      "tags": [
+        "pasta",
+        "vegetarisch",
+        "schnell"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 540,
+        "protein_g": 20,
+        "carbs_g": 78,
+        "fat_g": 16
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Blattspinat",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Feta",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Zehe"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Knoblauch und Spinat im Öl zusammenfallen lassen.",
+        "Nudeln untermischen und mit zerbröseltem Feta servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "Mengen und Allergene vor dem Servieren prüfen."
+    },
+    {
+      "title": "Kartoffelpuffer mit Apfelmus",
+      "description": "Knusprige Kartoffelpuffer mit fruchtigem Apfelmus.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "kartoffeln",
+        "klassiker",
+        "vegetarisch",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Eier gut durchgaren. Mengen und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 9,
+        "carbs_g": 55,
+        "fat_g": 18
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Ei",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Mehl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl zum Braten",
+          "amount": 4,
+          "unit": "EL"
+        },
+        {
+          "name": "Apfelmus",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Zwiebel fein reiben, gut ausdrücken und mit Ei, Mehl und Salz vermengen.",
+        "Öl in einer Pfanne erhitzen und kleine Puffer goldbraun von beiden Seiten ausbacken.",
+        "Auf Küchenpapier abtropfen lassen und mit Apfelmus servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Linseneintopf mit Wurzelgemüse",
+      "description": "Deftiger Eintopf mit braunen Linsen und Gemüse.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 35,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "eintopf",
+        "vegan",
+        "günstig",
+        "meal prep"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 360,
+        "protein_g": 18,
+        "carbs_g": 52,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Braune Linsen",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Karotten",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Kartoffeln",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "name": "Tomatenmark",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Zwiebel würfeln und in einem Topf anschwitzen, Karotten und Kartoffeln in Stücken zugeben.",
+        "Linsen, Tomatenmark und Brühe zugeben und etwa 30 Minuten köcheln, bis die Linsen weich sind.",
+        "Mit Salz und Pfeffer abschmecken und heiß servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Weiße-Bohnen-Eintopf",
+      "description": "Cremiger Eintopf mit weißen Bohnen und Tomaten.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "eintopf",
+        "vegan",
+        "günstig",
+        "lagerfreundlich"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 15,
+        "carbs_g": 48,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Weiße Bohnen",
+          "amount": 2,
+          "unit": "Dose"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 2,
+          "unit": "Zehen"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel und Knoblauch in Olivenöl glasig dünsten.",
+        "Bohnen abgießen, mit Tomaten und Brühe zugeben und 20 Minuten köcheln lassen.",
+        "Mit Salz und Pfeffer abschmecken und nach Wunsch leicht zerdrücken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Bauernfrühstück mit Kartoffeln und Ei",
+      "description": "Herzhafte Pfanne aus Kartoffeln, Ei und Gemüse.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "kartoffeln",
+        "pfanne",
+        "vegetarisch",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "allergens": [
+        "eggs"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Eier gut durchgaren. Mengen und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 18,
+        "carbs_g": 40,
+        "fat_g": 22
+      },
+      "ingredients": [
+        {
+          "name": "Gekochte Kartoffeln",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Eier",
+          "amount": 4,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln in Scheiben schneiden und mit Zwiebel und Paprika in Öl anbraten.",
+        "Eier verquirlen, über die Pfanne gießen und stocken lassen.",
+        "Mit Salz und Pfeffer würzen und sofort servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Möhrengemüse mit Reis",
+      "description": "Mildes Möhrengemüse mit lockerem Reis.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "deutsch",
+      "tags": [
+        "reis",
+        "vegan",
+        "günstig",
+        "familienfreundlich"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 8,
+        "carbs_g": 72,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Reis",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Karotten",
+          "amount": 4,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Reis nach Packungsangabe garen.",
+        "Karotten in Scheiben schneiden und mit der Zwiebel in Öl andünsten, Brühe zugeben und weich garen.",
+        "Möhrengemüse mit dem Reis anrichten und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Tomaten-Risotto",
+      "description": "Cremiges Risotto mit Tomaten und Parmesan.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "italienisch",
+      "tags": [
+        "reis",
+        "vegetarisch",
+        "klassiker"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch; auf Parmesan ohne tierisches Lab achten.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 470,
+        "protein_g": 13,
+        "carbs_g": 72,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Risottoreis",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "name": "Parmesan",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel in Öl glasig dünsten, Reis zugeben und kurz anrösten.",
+        "Tomaten und nach und nach die heiße Brühe einrühren, bis der Reis cremig und bissfest ist.",
+        "Parmesan unterrühren und mit Salz und Pfeffer abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Penne all'Arrabbiata",
+      "description": "Würzige Tomatensauce mit Knoblauch und Chili.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 18,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "pasta",
+        "vegan",
+        "schnell",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 480,
+        "protein_g": 14,
+        "carbs_g": 88,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Penne",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 2,
+          "unit": "Zehen"
+        },
+        {
+          "name": "Chiliflocken",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Penne in Salzwasser bissfest kochen.",
+        "Knoblauch und Chili in Öl anbraten, Tomaten zugeben und 10 Minuten einkochen.",
+        "Pasta mit der Sauce mischen und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Spaghetti mit Thunfisch und Tomaten",
+      "description": "Schnelle Pasta mit Thunfisch in Tomatensauce.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 18,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "pasta",
+        "schnell",
+        "high-protein"
+      ],
+      "diet_flags": [],
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Fisch, kein Schweinefleisch/Alkohol.",
+      "safety_notes": "KI-Entwurf: Fisch frisch verwenden und durchgaren. Allergene (Fisch) vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 540,
+        "protein_g": 30,
+        "carbs_g": 82,
+        "fat_g": 10
+      },
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Thunfisch im eigenen Saft",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Spaghetti bissfest kochen.",
+        "Zwiebel in Öl andünsten, Tomaten und abgetropften Thunfisch zugeben und kurz köcheln.",
+        "Pasta unterheben und mit Salz und Pfeffer abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Caprese-Nudelsalat",
+      "description": "Frischer Nudelsalat mit Tomate, Mozzarella und Basilikum.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "salat",
+        "pasta",
+        "vegetarisch",
+        "meal prep"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 16,
+        "carbs_g": 55,
+        "fat_g": 16
+      },
+      "ingredients": [
+        {
+          "name": "Fusilli",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Tomaten",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "name": "Mozzarella",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "name": "Basilikum",
+          "amount": 1,
+          "unit": "Bund"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 3,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen, abgießen und abkühlen lassen.",
+        "Tomaten und Mozzarella würfeln, mit Basilikum und Olivenöl zur Pasta geben.",
+        "Mit Salz und Pfeffer abschmecken und durchziehen lassen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Minestrone-Gemüsesuppe",
+      "description": "Italienische Gemüsesuppe mit Bohnen und Nudeln.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "suppe",
+        "vegan",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 300,
+        "protein_g": 12,
+        "carbs_g": 50,
+        "fat_g": 5
+      },
+      "ingredients": [
+        {
+          "name": "Suppennudeln",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Weiße Bohnen",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Karotten",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zucchini",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 1,
+          "unit": "l"
+        }
+      ],
+      "steps": [
+        "Karotten und Zucchini würfeln und kurz andünsten.",
+        "Tomaten, Bohnen und Brühe zugeben und 20 Minuten köcheln.",
+        "Nudeln zugeben, bissfest garen und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Türkische Linsensuppe (Mercimek)",
+      "description": "Sämige rote Linsensuppe mit Zitrone.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 30,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "türkisch",
+      "tags": [
+        "suppe",
+        "vegan",
+        "günstig",
+        "klassiker"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 290,
+        "protein_g": 16,
+        "carbs_g": 44,
+        "fat_g": 5
+      },
+      "ingredients": [
+        {
+          "name": "Rote Linsen",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Karotte",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Tomatenmark",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "name": "Zitrone",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Zwiebel und Karotte andünsten, Tomatenmark kurz mitrösten.",
+        "Linsen und Brühe zugeben und 25 Minuten weich kochen.",
+        "Suppe pürieren, abschmecken und mit Zitronensaft servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Bulgur-Pilaw mit Kichererbsen",
+      "description": "Lockerer Bulgur mit Kichererbsen und Tomate.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "türkisch",
+      "tags": [
+        "vegan",
+        "günstig",
+        "meal prep"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 410,
+        "protein_g": 15,
+        "carbs_g": 72,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Bulgur",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Kichererbsen",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Tomatenmark",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel in Öl andünsten, Tomatenmark und Bulgur kurz mitrösten.",
+        "Kichererbsen und Brühe zugeben, aufkochen und zugedeckt ausquellen lassen.",
+        "Mit Salz und Pfeffer abschmecken und auflockern."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Kisir – türkischer Bulgursalat",
+      "description": "Frischer Bulgursalat mit Tomatenmark und Petersilie.",
+      "servings": 4,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 5,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "türkisch",
+      "tags": [
+        "salat",
+        "vegan",
+        "meal prep",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 340,
+        "protein_g": 9,
+        "carbs_g": 58,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Feiner Bulgur",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Tomatenmark",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Petersilie",
+          "amount": 1,
+          "unit": "Bund"
+        },
+        {
+          "name": "Frühlingszwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zitrone",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 3,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Bulgur mit heißem Wasser übergießen und 15 Minuten quellen lassen.",
+        "Tomatenmark, Zitronensaft und Öl unterrühren.",
+        "Petersilie und Frühlingszwiebeln zugeben und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Orientalischer Kichererbsen-Eintopf",
+      "description": "Würziger Eintopf mit Kichererbsen und Kreuzkümmel.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "orientalisch",
+      "tags": [
+        "eintopf",
+        "vegan",
+        "curry",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 330,
+        "protein_g": 14,
+        "carbs_g": 46,
+        "fat_g": 9
+      },
+      "ingredients": [
+        {
+          "name": "Kichererbsen",
+          "amount": 2,
+          "unit": "Dose"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Kreuzkümmel",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel in Öl andünsten und Gewürze kurz mitrösten.",
+        "Kichererbsen und Tomaten zugeben und 20 Minuten köcheln lassen.",
+        "Mit Salz abschmecken und nach Wunsch mit Reis oder Brot servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Linsen-Bulgur-Eintopf",
+      "description": "Anatolischer Eintopf aus Linsen und Bulgur.",
+      "servings": 4,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 30,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "türkisch",
+      "tags": [
+        "eintopf",
+        "vegan",
+        "günstig",
+        "lagerfreundlich"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 17,
+        "carbs_g": 66,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Rote Linsen",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Bulgur",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Tomatenmark",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 1,
+          "unit": "l"
+        }
+      ],
+      "steps": [
+        "Zwiebel andünsten und Tomatenmark mitrösten.",
+        "Linsen, Bulgur und Brühe zugeben und 25 Minuten weich kochen.",
+        "Mit Salz, Pfeffer und etwas Minze abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Gebratener Reis mit Ei und Erbsen",
+      "description": "Schneller Bratreis mit Ei, Erbsen und Sojasauce.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "asiatisch",
+      "tags": [
+        "reis",
+        "schnell",
+        "vegetarisch",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "soy",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Eier gut durchgaren. Mengen und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 450,
+        "protein_g": 16,
+        "carbs_g": 70,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Gekochter Reis",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Eier",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Erbsen",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Frühlingszwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Eier in heißem Öl verrühren und stocken lassen, herausnehmen.",
+        "Reis und Erbsen kräftig anbraten, Sojasauce zugeben.",
+        "Ei und Frühlingszwiebeln unterheben und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Asiatische Gemüse-Nudelpfanne",
+      "description": "Wok-Nudeln mit buntem Gemüse und Sojasauce.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 12,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "asiatisch",
+      "tags": [
+        "vegan",
+        "schnell",
+        "pfanne"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten",
+        "soy"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 460,
+        "protein_g": 14,
+        "carbs_g": 80,
+        "fat_g": 9
+      },
+      "ingredients": [
+        {
+          "name": "Mie-Nudeln",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Karotte",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Brokkoli",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Nudeln nach Packungsangabe garen.",
+        "Gemüse im Wok kräftig anbraten, bis es bissfest ist.",
+        "Nudeln und Sojasauce zugeben, gut durchschwenken und servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Teriyaki-Hähnchen mit Reis",
+      "description": "Saftiges Hähnchen in Teriyaki-Sauce mit Reis.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "asiatisch",
+      "tags": [
+        "reis",
+        "high-protein",
+        "familienfreundlich"
+      ],
+      "diet_flags": [],
+      "allergens": [
+        "soy",
+        "gluten",
+        "sesame"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Mit Halal-Hähnchen zubereiten.",
+      "safety_notes": "KI-Entwurf: Fleisch vollständig durchgaren und Halal-Fleisch verwenden. Mengen und Allergene prüfen.",
+      "nutrition_per_serving": {
+        "calories": 560,
+        "protein_g": 38,
+        "carbs_g": 74,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Hähnchenbrust",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Honig",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Sesam",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Reis garen. Hähnchen in Streifen schneiden und in Öl kräftig anbraten.",
+        "Sojasauce und Honig zugeben und glasieren, bis das Fleisch durch ist.",
+        "Mit Sesam bestreuen und mit Reis servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Erdnuss-Nudeln mit Gemüse",
+      "description": "Nudeln in cremiger Erdnusssauce mit Gemüse.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "asiatisch",
+      "tags": [
+        "vegan",
+        "pfanne"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten",
+        "soy",
+        "nuts",
+        "sesame"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 600,
+        "protein_g": 20,
+        "carbs_g": 78,
+        "fat_g": 22
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Erdnussmus",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Sojasauce",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Karotte",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Limette",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Nudeln kochen. Gemüse in Streifen anbraten.",
+        "Erdnussmus, Sojasauce, Limettensaft und etwas Wasser zu einer Sauce verrühren.",
+        "Nudeln und Gemüse mit der Sauce mischen und servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Misosuppe mit Tofu",
+      "description": "Leichte japanische Misosuppe mit Tofu und Frühlingszwiebeln.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 10,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "asiatisch",
+      "tags": [
+        "suppe",
+        "vegan",
+        "schnell",
+        "leicht"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 160,
+        "protein_g": 12,
+        "carbs_g": 12,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Misopaste",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "name": "Tofu",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Frühlingszwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Wasser",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Wasser erhitzen, aber nicht kochen lassen.",
+        "Misopaste einrühren, Tofu in Würfeln zugeben und kurz ziehen lassen.",
+        "Mit Frühlingszwiebeln bestreut servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Porridge mit Banane und Erdnussmus",
+      "description": "Cremiges Haferporridge mit Banane und Erdnussmus.",
+      "servings": 1,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 7,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "vegan",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten",
+        "nuts"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 450,
+        "protein_g": 15,
+        "carbs_g": 62,
+        "fat_g": 16
+      },
+      "ingredients": [
+        {
+          "name": "Haferflocken",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Pflanzendrink",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Banane",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Erdnussmus",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Haferflocken mit dem Pflanzendrink unter Rühren aufkochen und cremig garen.",
+        "In eine Schale geben und mit Bananenscheiben belegen.",
+        "Mit Erdnussmus toppen und servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Skyr mit Haferflocken und Beeren",
+      "description": "Proteinreiches Frühstück mit Skyr und Beeren.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "vegetarisch",
+        "high-protein",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "lactose",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 330,
+        "protein_g": 26,
+        "carbs_g": 40,
+        "fat_g": 6
+      },
+      "ingredients": [
+        {
+          "name": "Skyr",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Haferflocken",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Beeren",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Honig",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Skyr mit den Haferflocken verrühren.",
+        "Beeren unterheben oder darauf verteilen.",
+        "Mit etwas Honig süßen und servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Rührei-Wrap mit Gemüse",
+      "description": "Warmer Wrap mit Rührei und frischem Gemüse.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 8,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "schnell",
+        "vegetarisch",
+        "high-protein"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Eier gut durchgaren. Mengen und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 22,
+        "carbs_g": 38,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Eier",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Weizentortilla",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Tomate",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Eier verquirlen und in Öl zu Rührei stocken lassen.",
+        "Tortilla kurz erwärmen, Rührei und gewürfeltes Gemüse darauf verteilen.",
+        "Einrollen und warm servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Magerquark mit Haferflocken und Banane",
+      "description": "Sättigender Quark mit Haferflocken und Banane.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 1,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "vegetarisch",
+        "high-protein",
+        "ohne kochen"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "lactose",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 34,
+        "carbs_g": 48,
+        "fat_g": 4
+      },
+      "ingredients": [
+        {
+          "name": "Magerquark",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Haferflocken",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Banane",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Wasser",
+          "amount": 3,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Quark mit etwas Wasser cremig rühren.",
+        "Haferflocken unterrühren.",
+        "Mit Bananenscheiben belegen und servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Hähnchenbrust mit Reis und Brokkoli",
+      "description": "Klassisches Fitnessgericht mit Hähnchen, Reis und Brokkoli.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "reis",
+        "high-protein",
+        "meal prep"
+      ],
+      "diet_flags": [],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Mit Halal-Hähnchen zubereiten.",
+      "safety_notes": "KI-Entwurf: Fleisch vollständig durchgaren und Halal-Fleisch verwenden. Mengen und Allergene prüfen.",
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 42,
+        "carbs_g": 60,
+        "fat_g": 10
+      },
+      "ingredients": [
+        {
+          "name": "Hähnchenbrust",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Brokkoli",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Reis garen und Brokkoli in Salzwasser bissfest kochen.",
+        "Hähnchen in Öl von beiden Seiten goldbraun und vollständig durchbraten.",
+        "Alles zusammen anrichten und würzen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Thunfisch-Bohnen-Salat",
+      "description": "Schneller Eiweiß-Salat mit Thunfisch und Bohnen.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 1,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "salat",
+        "high-protein",
+        "schnell",
+        "ohne kochen"
+      ],
+      "diet_flags": [],
+      "allergens": [
+        "fish"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Fisch, kein Schweinefleisch/Alkohol.",
+      "safety_notes": "KI-Entwurf: Fisch frisch verwenden und durchgaren. Allergene (Fisch) vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 30,
+        "carbs_g": 30,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Thunfisch im eigenen Saft",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Kidneybohnen",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Mais",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Zitrone",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Bohnen und Mais abgießen und abspülen.",
+        "Mit abgetropftem Thunfisch und gewürfelter Zwiebel mischen.",
+        "Mit Zitronensaft, Öl, Salz und Pfeffer abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Linsen-Reis-Bowl (Kichari)",
+      "description": "Sättigende Bowl aus roten Linsen und Reis.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "indisch",
+      "tags": [
+        "reis",
+        "vegan",
+        "high-protein",
+        "one-pot"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 480,
+        "protein_g": 20,
+        "carbs_g": 82,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Rote Linsen",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Kurkuma",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "name": "Öl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Zwiebel in Öl andünsten und Kurkuma mitrösten.",
+        "Linsen, Reis und Brühe zugeben und zugedeckt weich köcheln.",
+        "Mit Salz abschmecken und cremig rühren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Kichererbsen-Reis-Pfanne",
+      "description": "Würzige One-Pot-Pfanne mit Kichererbsen und Reis.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "reis",
+        "vegan",
+        "one-pot",
+        "günstig"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 14,
+        "carbs_g": 76,
+        "fat_g": 7
+      },
+      "ingredients": [
+        {
+          "name": "Reis",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "name": "Kichererbsen",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 400,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Zwiebel andünsten, Reis und Paprikapulver kurz mitrösten.",
+        "Tomaten, Kichererbsen und Brühe zugeben und zugedeckt garen.",
+        "Abschmecken und auflockern."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Ofen-Süßkartoffel mit Bohnen",
+      "description": "Gebackene Süßkartoffel mit Bohnen und Mais.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 40,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "ofen",
+        "vegan",
+        "familienfreundlich"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 410,
+        "protein_g": 13,
+        "carbs_g": 78,
+        "fat_g": 5
+      },
+      "ingredients": [
+        {
+          "name": "Süßkartoffeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Kidneybohnen",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Mais",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Süßkartoffeln waschen, einstechen und im Ofen bei 200 Grad etwa 40 Minuten backen.",
+        "Bohnen und Mais mit Paprikapulver und Öl erwärmen.",
+        "Süßkartoffeln aufschneiden und mit der Bohnenmischung füllen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Couscous mit Kichererbsen und Gemüse",
+      "description": "Schneller Couscous mit Kichererbsen und Gemüse.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "orientalisch",
+      "tags": [
+        "vegan",
+        "schnell",
+        "meal prep"
+      ],
+      "diet_flags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 440,
+        "protein_g": 15,
+        "carbs_g": 78,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Couscous",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Kichererbsen",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Zucchini",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Paprika",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Couscous mit heißer Brühe übergießen und quellen lassen.",
+        "Gemüse in Öl anbraten, Kichererbsen zugeben und erwärmen.",
+        "Couscous auflockern, untermischen und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Schnelle Tomaten-Gnocchi",
+      "description": "Gnocchi in schneller Tomatensauce, in 15 Minuten fertig.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 12,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "schnell",
+        "vegetarisch",
+        "familienfreundlich"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 460,
+        "protein_g": 12,
+        "carbs_g": 84,
+        "fat_g": 8
+      },
+      "ingredients": [
+        {
+          "name": "Gnocchi",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Passierte Tomaten",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Zehe"
+        },
+        {
+          "name": "Italienische Kräuter",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Gnocchi nach Packungsangabe garen.",
+        "Knoblauch in Öl andünsten, Tomaten und Kräuter zugeben und kurz einkochen.",
+        "Gnocchi unter die Sauce heben und servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Thunfisch-Sandwich",
+      "description": "Schnelles Sandwich mit Thunfisch und Gurke.",
+      "servings": 1,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 1,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "schnell",
+        "high-protein",
+        "ohne kochen"
+      ],
+      "diet_flags": [],
+      "allergens": [
+        "fish",
+        "gluten",
+        "eggs"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Fisch, kein Schweinefleisch/Alkohol.",
+      "safety_notes": "KI-Entwurf: Fisch frisch verwenden und durchgaren. Allergene (Fisch) vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 26,
+        "carbs_g": 38,
+        "fat_g": 12
+      },
+      "ingredients": [
+        {
+          "name": "Vollkornbrot",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "Thunfisch im eigenen Saft",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Joghurt",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Gurke",
+          "amount": 0.5,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Thunfisch abtropfen lassen und mit dem Joghurt verrühren.",
+        "Auf eine Brotscheibe streichen und mit Gurkenscheiben belegen.",
+        "Mit der zweiten Scheibe bedecken und halbieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Mozzarella-Tomaten-Toast",
+      "description": "Überbackener Toast mit Tomate und Mozzarella.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 8,
+      "meal_type": "lunch",
+      "difficulty": "easy",
+      "cuisine": "italienisch",
+      "tags": [
+        "schnell",
+        "vegetarisch",
+        "snack"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 360,
+        "protein_g": 18,
+        "carbs_g": 34,
+        "fat_g": 16
+      },
+      "ingredients": [
+        {
+          "name": "Toastbrot",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "Tomate",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Mozzarella",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Italienische Kräuter",
+          "amount": 1,
+          "unit": "TL"
+        }
+      ],
+      "steps": [
+        "Toast leicht rösten und mit Tomaten- und Mozzarellascheiben belegen.",
+        "Mit Kräutern bestreuen und im Ofen oder Toaster überbacken, bis der Käse schmilzt.",
+        "Kurz abkühlen lassen und servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Nudeln mit Erbsen und Frischkäse",
+      "description": "Cremige Nudeln mit Erbsen und Frischkäse.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 15,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "pasta",
+        "schnell",
+        "vegetarisch",
+        "familienfreundlich"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 19,
+        "carbs_g": 82,
+        "fat_g": 14
+      },
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Erbsen",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Frischkäse",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Nudeln bissfest kochen, Erbsen die letzten Minuten mitgaren.",
+        "Frischkäse mit etwas Brühe glatt rühren.",
+        "Nudeln und Erbsen mit der Sauce mischen und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Reis mit Kidneybohnen und Mais",
+      "description": "Einfaches One-Pot-Gericht mit Reis, Bohnen und Mais.",
+      "servings": 3,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 22,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "reis",
+        "vegan",
+        "günstig",
+        "lagerfreundlich"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 14,
+        "carbs_g": 84,
+        "fat_g": 4
+      },
+      "ingredients": [
+        {
+          "name": "Reis",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Kidneybohnen",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Mais",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Gehackte Tomaten",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Gemüsebrühe",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Reis kurz anrösten, Tomaten und Brühe zugeben und garen.",
+        "Bohnen und Mais unterrühren und erwärmen.",
+        "Mit Salz, Pfeffer und Paprikapulver abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Kartoffel-Ei-Auflauf",
+      "description": "Herzhafter Auflauf aus Kartoffeln und Ei.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 35,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "deutsch",
+      "tags": [
+        "ofen",
+        "kartoffeln",
+        "vegetarisch",
+        "familienfreundlich"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "eggs",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "safety_notes": "KI-Entwurf: Eier gut durchgaren. Mengen und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 410,
+        "protein_g": 17,
+        "carbs_g": 40,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Eier",
+          "amount": 4,
+          "unit": "Stück"
+        },
+        {
+          "name": "Milch",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Geriebener Käse",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Salz",
+          "notes": "nach Geschmack"
+        }
+      ],
+      "steps": [
+        "Kartoffeln in Scheiben schneiden und in eine Auflaufform schichten.",
+        "Eier mit Milch und Salz verquirlen und über die Kartoffeln gießen.",
+        "Mit Käse bestreuen und bei 200 Grad goldbraun backen."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Hackbällchen in Tomatensauce mit Reis",
+      "description": "Saftige Hackbällchen in Tomatensauce mit Reis.",
+      "servings": 4,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "medium",
+      "cuisine": "international",
+      "tags": [
+        "reis",
+        "high-protein",
+        "familienfreundlich"
+      ],
+      "diet_flags": [],
+      "allergens": [
+        "eggs",
+        "gluten"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Mit Halal-Rinderhack zubereiten.",
+      "safety_notes": "KI-Entwurf: Fleisch vollständig durchgaren und Halal-Fleisch verwenden. Mengen und Allergene prüfen.",
+      "nutrition_per_serving": {
+        "calories": 560,
+        "protein_g": 32,
+        "carbs_g": 62,
+        "fat_g": 20
+      },
+      "ingredients": [
+        {
+          "name": "Rinderhackfleisch",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Ei",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Semmelbrösel",
+          "amount": 3,
+          "unit": "EL"
+        },
+        {
+          "name": "Passierte Tomaten",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Reis",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Hack mit Ei, Semmelbröseln, Zwiebel und Salz vermengen und Bällchen formen.",
+        "Bällchen rundum anbraten und vollständig durchgaren, Tomaten zugeben und köcheln.",
+        "Mit gekochtem Reis servieren."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Gemüse-Kartoffel-Curry",
+      "description": "Mildes Curry mit Kartoffeln und Gemüse in Kokosmilch.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "meal_type": "dinner",
+      "difficulty": "easy",
+      "cuisine": "indisch",
+      "tags": [
+        "curry",
+        "vegan",
+        "familienfreundlich",
+        "kartoffeln"
+      ],
+      "diet_flags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "allergens": [],
+      "halal_status": "halal",
+      "halal_notes": "Vegan.",
+      "safety_notes": "KI-Entwurf: Mengen, Garzeiten und Allergene vor dem Servieren prüfen.",
+      "nutrition_per_serving": {
+        "calories": 390,
+        "protein_g": 9,
+        "carbs_g": 52,
+        "fat_g": 16
+      },
+      "ingredients": [
+        {
+          "name": "Kartoffeln",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Karotten",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Erbsen",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Kokosmilch",
+          "amount": 1,
+          "unit": "Dose"
+        },
+        {
+          "name": "Currypulver",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Zwiebel andünsten und Currypulver kurz mitrösten.",
+        "Kartoffeln und Karotten in Stücken mit Kokosmilch zugeben und weich garen.",
+        "Erbsen unterrühren, kurz erwärmen und abschmecken."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft"
+    },
+    {
+      "title": "Haferflocken-Pfannkuchen",
+      "description": "Proteinreiche Pfannkuchen aus Haferflocken, Ei und Banane.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 12,
+      "meal_type": "breakfast",
+      "difficulty": "easy",
+      "cuisine": "international",
+      "tags": [
+        "frühstück",
+        "high-protein",
+        "vegetarisch",
+        "schnell"
+      ],
+      "diet_flags": [
+        "vegetarisch"
+      ],
+      "allergens": [
+        "gluten",
+        "eggs",
+        "lactose"
+      ],
+      "halal_status": "halal",
+      "halal_notes": "Vegetarisch.",
+      "nutrition_per_serving": {
+        "calories": 360,
+        "protein_g": 16,
+        "carbs_g": 48,
+        "fat_g": 11
+      },
+      "ingredients": [
+        {
+          "name": "Haferflocken",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Eier",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "name": "Banane",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "name": "Milch",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Öl zum Braten",
+          "amount": 1,
+          "unit": "EL"
+        }
+      ],
+      "steps": [
+        "Banane zerdrücken und mit Eiern, Haferflocken und Milch zu einem Teig verrühren.",
+        "Teig kurz quellen lassen, dann kleine Pfannkuchen in Öl von beiden Seiten goldbraun braten.",
+        "Warm servieren, nach Wunsch mit etwas Obst."
+      ],
+      "source_type": "ai_generated",
+      "source_license": "AI-generated draft for Cheffity",
+      "ai_notice_required": true,
+      "verification_status": "draft",
+      "safety_notes": "KI-Entwurf: Eier gut durchgaren. Mengen und Allergene vor dem Servieren prüfen."
+    }
+  ]
+}

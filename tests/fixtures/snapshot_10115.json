@@ -1,0 +1,45 @@
+{
+  "snapshotId": "10115",
+  "offers": [
+    {
+      "storeChain": "REWE",
+      "name": "Bio Bananen",
+      "price": 1.99,
+      "unit": "kg",
+      "validityStart": "2026-02-08T23:00:00.000Z",
+      "validityEnd": "2026-02-15T22:59:59.000Z",
+      "category": "Obst/Gemüse",
+      "postalCode": "10115"
+    },
+    {
+      "storeChain": "REWE",
+      "name": "Avocado Hass",
+      "price": 1.49,
+      "unit": "stk",
+      "validityStart": "2026-02-09T06:00:00.000Z",
+      "validityEnd": "2026-02-14T22:59:59.000Z",
+      "category": "Obst/Gemüse",
+      "postalCode": "10115"
+    },
+    {
+      "storeChain": "REWE",
+      "name": "Schneemann Duftkerze Vanille",
+      "price": 2.99,
+      "unit": "stk",
+      "validityStart": "2026-02-09T06:00:00.000Z",
+      "validityEnd": "2026-02-14T22:59:59.000Z",
+      "category": "Getränke Alkoholfrei",
+      "postalCode": "10115"
+    },
+    {
+      "storeChain": "ALDI NORD",
+      "name": "Olivenoel Premium",
+      "price": 5.99,
+      "unit": "l",
+      "validityStart": "2026-01-20T00:00:00.000Z",
+      "validityEnd": "2026-03-01T22:59:59.000Z",
+      "category": "Trockenware",
+      "postalCode": "10115"
+    }
+  ]
+}
